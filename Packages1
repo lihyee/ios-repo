@@ -162,10 +162,10 @@ SHA256: 97b980b8239bedce63b83e5e87959f9ca428ee4efc078191921f88552691da7a
 
 
 Package: me.tomt000.copylog
-Name: CopyLog
+Name: CopyLog汉化
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
-Description: Clipboard history manager for iOS!
+Description: Copylog汉化版自用
 Maintainer: TomT000
 Author: TomT000
 Conflicts: com.0xkuj.copylogfix16
