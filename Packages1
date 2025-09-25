@@ -12,7 +12,7 @@ Installed-Size: 2520
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Section: 抖音插件
 Filename: debs/com.huami.dyyy_2.2-8_iphoneos-arm64.deb
-Size:   501844
+Size: 501844
 MD5sum: 55d092f2a6ae1a744f71d4f6330b82d0
 SHA1: dcf77b452ccf4b2889937c26afec7791553aaf70
 SHA256: 43134695d876d6b3ce8797faff185fdb6321320fc0e7e5abab2db52ec6828cf0
@@ -23,14 +23,14 @@ Priority: optional
 Maintainer: lhyee
 Depends: mobilesubstrate (>= 0.9.5000)
 Name: 取消飞智超频弹窗
-Description: 取消飞智超频的倒计时弹窗
+Description: 取消飞智超频倒计时弹窗
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 88
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: 其他插件
 Filename: debs/com.lhyee.feizhi_1.0_iphoneos-arm64.deb
-Size:     5512
+Size: 5512
 MD5sum: 4571d63a4e03e5adbf2559c6746fcfcc
 SHA1: 7de4640b56254bb1f2a4f14401a268ae0d441344
 SHA256: ef01ef6da2a79d66703bda6c8a9c7107212a18e0e647409008bfb14e1f1fd7dd
@@ -40,18 +40,36 @@ Author: lhyee
 Priority: optional
 Maintainer: lhyee
 Depends: mobilesubstrate (>= 0.9.5000)
-Name: 虎牙开屏NoAds
-Description: 虎牙去开屏广告
+Name: 虎牙去开屏NoAds
+Description: 仅供学习交流，请在 24 小时内自觉删除。
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 88
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: 去广告
 Filename: debs/com.lhyee.huya_1.0_iphoneos-arm64.deb
-Size:     3592
+Size: 3592
 MD5sum: aa8b17f43f60081abb272754800f6027
 SHA1: a3a8a91f38d0c276c357e50f7a9f2fbd0dee1b3a
 SHA256: b7c196c813c30f8c818d48ca24c156843079135b3a3f71ae262d8b874619b6ef
+
+Package: com.lhyee.renshu
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: firmware (>= 15.0)
+Name: 直播真实人数
+Description: 抖音直播真实人数
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/com.lhyee.renshu_1.0_iphoneos-arm64.deb
+Size: 4970
+MD5sum: 0204354bf613548519a7961f428b4904
+SHA1: ebbf1d290b01c0ebd7dfba788238ba2e5b2a3fb1
+SHA256: e24c286228f105b06030416ea1a886e711c0ca343c1ed8725ca08a71ccec7c41
 
 Package: com.lhyee.soul
 Author: lhyee
@@ -59,14 +77,14 @@ Priority: optional
 Maintainer: lhyee
 Depends: firmware (>= 15.0)
 Name: soul隐藏已读
-Description: soul已读对方消息对方显示未读
+Description: soul已读对方消息，对方显示未读
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 88
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: 其他插件
 Filename: debs/com.lhyee.soul_1.0_iphoneos-arm64.deb
-Size:     2196
+Size: 2196
 MD5sum: b0e84b6f7f808bb05f3e4db60cae0447
 SHA1: 20aa24159c642c2639d6c383f6a59a367e3c8448
 SHA256: 90360f0881eced1dac3e04b7534711d8b07cea365198e0c4b179c41c860baa4d
@@ -77,17 +95,34 @@ Priority: optional
 Maintainer: lhyee
 Depends: firmware (>= 15.0)
 Name: WCqwq
-Description: 自用，微信圆角
+Description: 自用插件，微信圆角
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 92
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
 Section: 微信插件
 Filename: debs/com.lhyee.wcqwq_1.0_iphoneos-arm64.deb
-Size:     9994
+Size: 9994
 MD5sum: ef43deb1be198bfb8ba2dbd32e31da6d
 SHA1: 91c8630760f9217f143e586f22b195be3946c555
 SHA256: 2cef8b635f0e7fdab039f11aa0976af59f0e4628379c9e215abd1ea393cd7a21
+
+Package: com.susu.fuckwechatads
+Name: FuckWeChatAds
+Description: 微信去广告
+Maintainer: susu
+Author: susu
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Installed-Size: 104
+Icon: https://www.susuboy.cn/images/wechat.png
+Section: Tweaks
+Filename: debs/com.susu.fuckwechatads_1.0.2_iphoneos-arm64.deb
+Size: 16876
+MD5sum: b0243f9872e872519b350d65838555a2
+SHA1: 7615a667b46f9d213959873620b56709e5b9ab9f
+SHA256: ae2556aec122685bbcfbcd2401aa5bc53fbf7d2a231a14c123411ba61b494768
 
 Package: com.susu.wcfrostedglass
 Name: SuWCFrostedGlass
@@ -101,101 +136,10 @@ Installed-Size: 168
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
 Section: 微信插件
 Filename: debs/com.susu.wcfrostedglass_1.0.5_iphoneos-arm64.deb
-Size:     4888
+Size: 4888
 MD5sum: 373e0a77dc19ce8fb5002cf1c4bee664
 SHA1: dc4575143c1a9c4a40931cbd8ea894867ffcbe4c
 SHA256: 1638b02f4ed0cea9c044c2e83ccd8ab535e8afb95c94f5e13c5031ebd3c3bc6c
-
-Package: com.lhyee.wcfix
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: fix图标错位
-Description: 修复打开微信助手工具栏底栏图标错位的问题
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-Section: 微信插件
-Filename: debs/com.lhyee.wcfix_1.0_iphoneos-arm64.deb
-Size:     4492
-MD5sum: 7a222242855e228497e159f2b4fdab63
-SHA1: 63be3c5d73cb4a85fb54a862a529f04c063261bf
-SHA256: b25c7ff0359e47b06ab1a6041690a702fe0eca4cc75b0cfa17fdadacee71d7f7
-
-Package: com.lhyee.hdrhook
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: 抖音关闭hdr
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Section: 抖音插件
-Filename: debs/com.lhyee.hdrhook_1.0_iphoneos-arm64.deb
-Size:     4016
-MD5sum: 7fbc174bc94ad0a25d4261206a34f9e4
-SHA1: cf66e93139df35e893cda6c62abcd95fa4208410
-SHA256: 1dbe0d0176a92759dd57190d96f5632a52f00f10f63c33011b84e5f3758ab8ab
-
-Package: com.lhyee.yincangwc
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: 隐藏微信某些图标
-Description: 隐藏大家觉得碍眼的图标，隐藏后可以点击
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-Section: 微信插件
-Filename: debs/com.lhyee.yincangwc_1.0_iphoneos-arm64.deb
-Size:     3836
-MD5sum: 0e123c0be7e651a2c1875d3115ca6bdb
-SHA1: 71497dec15ac50b472073fa227b7d53959dd9cda
-SHA256: 97b980b8239bedce63b83e5e87959f9ca428ee4efc078191921f88552691da7a
-
-
-Package: me.tomt000.copylog
-Name: CopyLog汉化
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64
-Description: Copylog汉化版自用
-Maintainer: TomT000
-Author: TomT000
-Conflicts: com.0xkuj.copylogfix16
-Version: 1.7
-Installed-Size: 5880
-Icon: https://lihyee.github.io/ios-repo/icons/me.tomt000.copylog.png
-Section: 系统类插件
-Filename: debs/me.tomt000.copylog_1.7_iphoneos-arm64.deb
-Size:  2279196
-MD5sum: 84fa5e92f35f7e09341dcf43930d0816
-SHA1: 6e82289e1d4a35ca866ff4dcd773d4cf39353bed
-SHA256: f31bff529b92bbc0225c90e052f37bf7e18107807ebf12265d6da7e2beb4660f
-
-Package: com.lhyee.renshu
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: firmware (>= 15.0)
-Name: 直播真实人数
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Section: 抖音插件
-Filename: debs/com.lhyee.renshu_1.0_iphoneos-arm64.deb
-Size:     4970
-MD5sum: 0204354bf613548519a7961f428b4904
-SHA1: ebbf1d290b01c0ebd7dfba788238ba2e5b2a3fb1
-SHA256: e24c286228f105b06030416ea1a886e711c0ca343c1ed8725ca08a71ccec7c41
 
 Package: com.xx.dyhook
 Name: 抖音图层
@@ -213,4 +157,76 @@ Size: 3503944
 MD5sum: c7f9742ec29be1dae5f9363d3e300aa2
 SHA1: 2d3bad5a4da610bf9b429c8930dff7ac86ee40ba
 SHA256: fc34ce64bcba3642650581a67eeec639b09907ba7d9d7190ce2ebda6b314683f
+
+Package: com.lhyee.wcfix
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: fix图标错位
+Description: 修复打开微信助手工具栏底栏图标错位的问题
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Section: 微信插件
+Filename: debs/fix图标错位-arm64.deb
+Size: 4492
+MD5sum: 7a222242855e228497e159f2b4fdab63
+SHA1: 63be3c5d73cb4a85fb54a862a529f04c063261bf
+SHA256: b25c7ff0359e47b06ab1a6041690a702fe0eca4cc75b0cfa17fdadacee71d7f7
+
+Package: me.tomt000.copylog
+Name: CopyLog汉化
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Description: CopyLog汉化版
+Maintainer: TomT000
+Author: TomT000
+Conflicts: com.0xkuj.copylogfix16
+Version: 1.7
+Installed-Size: 5880
+Icon: https://lihyee.github.io/ios-repo/icons/me.tomt000.copylog.png
+Section: 系统类插件
+Filename: debs/me.tomt000.copylog_1.7_iphoneos-arm64.deb
+Size: 2279196
+MD5sum: 84fa5e92f35f7e09341dcf43930d0816
+SHA1: 6e82289e1d4a35ca866ff4dcd773d4cf39353bed
+SHA256: f31bff529b92bbc0225c90e052f37bf7e18107807ebf12265d6da7e2beb4660f
+
+Package: com.lhyee.hdrhook
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 抖音关闭hdr
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/抖音关闭hdr.deb
+Size: 4016
+MD5sum: 7fbc174bc94ad0a25d4261206a34f9e4
+SHA1: cf66e93139df35e893cda6c62abcd95fa4208410
+SHA256: 1dbe0d0176a92759dd57190d96f5632a52f00f10f63c33011b84e5f3758ab8ab
+
+Package: com.lhyee.yincangwc
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 隐藏微信某些图标
+Description: 隐藏大家觉得碍眼的图标，隐藏后可以点击
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Section: 微信插件
+Filename: debs/隐藏微信一些图标.deb
+Size: 3836
+MD5sum: 0e123c0be7e651a2c1875d3115ca6bdb
+SHA1: 71497dec15ac50b472073fa227b7d53959dd9cda
+SHA256: 97b980b8239bedce63b83e5e87959f9ca428ee4efc078191921f88552691da7a
 
