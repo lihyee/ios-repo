@@ -118,7 +118,7 @@ Version: 1.0
 Installed-Size: 88
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
 Section: 微信插件
-Filename: debs/fix图标错位-arm64.deb
+Filename: debs/com.lhyee.wcfix_1.0_iphoneos-arm64.deb
 Size:     4492
 MD5sum: 7a222242855e228497e159f2b4fdab63
 SHA1: 63be3c5d73cb4a85fb54a862a529f04c063261bf
@@ -136,7 +136,7 @@ Version: 1.0
 Installed-Size: 88
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Section: 抖音插件
-Filename: debs/抖音关闭hdr.deb
+Filename: debs/com.lhyee.hdrhook_1.0_iphoneos-arm64.deb
 Size:     4016
 MD5sum: 7fbc174bc94ad0a25d4261206a34f9e4
 SHA1: cf66e93139df35e893cda6c62abcd95fa4208410
@@ -154,7 +154,7 @@ Version: 1.0
 Installed-Size: 88
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
 Section: 微信插件
-Filename: debs/隐藏微信一些图标.deb
+Filename: debs/com.lhyee.yincangwc_1.0_iphoneos-arm64.deb
 Size:     3836
 MD5sum: 0e123c0be7e651a2c1875d3115ca6bdb
 SHA1: 71497dec15ac50b472073fa227b7d53959dd9cda
