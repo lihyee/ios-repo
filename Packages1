@@ -189,8 +189,8 @@ Description: 仅供学习交流，请在 24 小时内自觉删除。
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 88
-Icon: https://lihyee.github.io/ios-repo/tubiao.png
-Section: Tweaks
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
 Filename: debs/com.lhyee.renshu_1.0_iphoneos-arm64.deb
 Size:     4970
 MD5sum: 0204354bf613548519a7961f428b4904
