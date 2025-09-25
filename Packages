@@ -197,3 +197,20 @@ MD5sum: 0204354bf613548519a7961f428b4904
 SHA1: ebbf1d290b01c0ebd7dfba788238ba2e5b2a3fb1
 SHA256: e24c286228f105b06030416ea1a886e711c0ca343c1ed8725ca08a71ccec7c41
 
+Package: com.xx.dyhook
+Name: 抖音图层
+Description: 自用
+Maintainer: x✨
+Author: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3.1-6
+Installed-Size: 11380
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/com.xx.dyhook_2.3.1-6_iphoneos-arm64.deb
+Size: 3503944
+MD5sum: c7f9742ec29be1dae5f9363d3e300aa2
+SHA1: 2d3bad5a4da610bf9b429c8930dff7ac86ee40ba
+SHA256: fc34ce64bcba3642650581a67eeec639b09907ba7d9d7190ce2ebda6b314683f
+
