@@ -241,3 +241,22 @@ SHA1: 8b736d7b000d849e6fd12e4c2a3e8bed517652b4
 SHA256: 2803b311c0d0db9de20d727c1204017ed01789f9b26e922a877758ca325c5845
 
 
+Package: com.vita.yuki
+Name: Yuki
+Description: 免费插件，随缘更新。
+Homepage: https://github.com/wtrwx
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: vita
+Author: vita
+Architecture: iphoneos-arm64
+Version: 0.0-8
+Installed-Size: 336
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/com.vita.yuki_0.0-8_iphoneos-arm64.deb
+Size: 53378
+MD5sum: e5a666e445a3e1e196329cf6f85079fa
+SHA1: 78dac767faf0b924941ecf91a3a2c95421400f9e
+SHA256: 0c6420d73e4bcf2065e3210ee1e778c5e48b738bd92f325be2ba9c60d32d7f9f
+
