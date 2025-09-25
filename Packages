@@ -10,7 +10,7 @@ Architecture: iphoneos-arm64
 Version: 2.2-8
 Installed-Size: 2520
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Section: Tweaks
+Section: 抖音插件
 Filename: debs/com.huami.dyyy_2.2-8_iphoneos-arm64.deb
 Size:   501844
 MD5sum: 55d092f2a6ae1a744f71d4f6330b82d0
@@ -23,7 +23,7 @@ Priority: optional
 Maintainer: lhyee
 Depends: mobilesubstrate (>= 0.9.5000)
 Name: 取消飞智超频弹窗
-Description: 仅自用
+Description: 取消飞智超频的倒计时弹窗
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 88
@@ -40,8 +40,8 @@ Author: lhyee
 Priority: optional
 Maintainer: lhyee
 Depends: mobilesubstrate (>= 0.9.5000)
-Name: 虎牙直播NoAds
-Description: 仅供学习交流，请在 24 小时内自觉删除。
+Name: 虎牙开屏NoAds
+Description: 虎牙去开屏广告
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 88
@@ -59,7 +59,7 @@ Priority: optional
 Maintainer: lhyee
 Depends: firmware (>= 15.0)
 Name: soul隐藏已读
-Description: 仅供学习交流，请在 24 小时内自觉删除。
+Description: soul已读对方消息对方显示未读
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 88
@@ -77,7 +77,7 @@ Priority: optional
 Maintainer: lhyee
 Depends: firmware (>= 15.0)
 Name: WCqwq
-Description: 仅供学习交流，请在 24 小时内自觉删除。
+Description: 自用，微信圆角
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 92
@@ -159,4 +159,41 @@ Size:     3836
 MD5sum: 0e123c0be7e651a2c1875d3115ca6bdb
 SHA1: 71497dec15ac50b472073fa227b7d53959dd9cda
 SHA256: 97b980b8239bedce63b83e5e87959f9ca428ee4efc078191921f88552691da7a
+
+
+Package: me.tomt000.copylog
+Name: CopyLog
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Description: Clipboard history manager for iOS!
+Maintainer: TomT000
+Author: TomT000
+Conflicts: com.0xkuj.copylogfix16
+Version: 1.7
+Installed-Size: 5880
+Icon: https://lihyee.github.io/ios-repo/icons/me.tomt000.copylog.png
+Section: 系统类插件
+Filename: debs/me.tomt000.copylog_1.7_iphoneos-arm64.deb
+Size:  2279196
+MD5sum: 84fa5e92f35f7e09341dcf43930d0816
+SHA1: 6e82289e1d4a35ca866ff4dcd773d4cf39353bed
+SHA256: f31bff529b92bbc0225c90e052f37bf7e18107807ebf12265d6da7e2beb4660f
+
+Package: com.lhyee.renshu
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: firmware (>= 15.0)
+Name: 直播真实人数
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: Tweaks
+Filename: debs/com.lhyee.renshu_1.0_iphoneos-arm64.deb
+Size:     4970
+MD5sum: 0204354bf613548519a7961f428b4904
+SHA1: ebbf1d290b01c0ebd7dfba788238ba2e5b2a3fb1
+SHA256: e24c286228f105b06030416ea1a886e711c0ca343c1ed8725ca08a71ccec7c41
 
