@@ -17,6 +17,78 @@ MD5sum: 55d092f2a6ae1a744f71d4f6330b82d0
 SHA1: dcf77b452ccf4b2889937c26afec7791553aaf70
 SHA256: 43134695d876d6b3ce8797faff185fdb6321320fc0e7e5abab2db52ec6828cf0
 
+Package: com.lhyee.feizhi
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 取消飞智超频弹窗
+Description: 仅自用
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: 其他插件
+Filename: debs/com.lhyee.feizhi_1.0_iphoneos-arm64.deb
+Size:     5512
+MD5sum: 4571d63a4e03e5adbf2559c6746fcfcc
+SHA1: 7de4640b56254bb1f2a4f14401a268ae0d441344
+SHA256: ef01ef6da2a79d66703bda6c8a9c7107212a18e0e647409008bfb14e1f1fd7dd
+
+Package: com.lhyee.huya
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 虎牙直播NoAds
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: 去广告
+Filename: debs/com.lhyee.huya_1.0_iphoneos-arm64.deb
+Size:     3592
+MD5sum: aa8b17f43f60081abb272754800f6027
+SHA1: a3a8a91f38d0c276c357e50f7a9f2fbd0dee1b3a
+SHA256: b7c196c813c30f8c818d48ca24c156843079135b3a3f71ae262d8b874619b6ef
+
+Package: com.lhyee.soul
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: firmware (>= 15.0)
+Name: soul隐藏已读
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: 其他插件
+Filename: debs/com.lhyee.soul_1.0_iphoneos-arm64.deb
+Size:     2196
+MD5sum: b0e84b6f7f808bb05f3e4db60cae0447
+SHA1: 20aa24159c642c2639d6c383f6a59a367e3c8448
+SHA256: 90360f0881eced1dac3e04b7534711d8b07cea365198e0c4b179c41c860baa4d
+
+Package: com.lhyee.wcqwq
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: firmware (>= 15.0)
+Name: WCqwq
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 92
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Section: 微信插件
+Filename: debs/com.lhyee.wcqwq_1.0_iphoneos-arm64.deb
+Size:     9994
+MD5sum: ef43deb1be198bfb8ba2dbd32e31da6d
+SHA1: 91c8630760f9217f143e586f22b195be3946c555
+SHA256: 2cef8b635f0e7fdab039f11aa0976af59f0e4628379c9e215abd1ea393cd7a21
+
 Package: com.susu.wcfrostedglass
 Name: SuWCFrostedGlass
 Description: 微信界面上下添加毛玻璃效果，作者源：https://susubaby.top/0107/
@@ -33,4 +105,58 @@ Size:     4888
 MD5sum: 373e0a77dc19ce8fb5002cf1c4bee664
 SHA1: dc4575143c1a9c4a40931cbd8ea894867ffcbe4c
 SHA256: 1638b02f4ed0cea9c044c2e83ccd8ab535e8afb95c94f5e13c5031ebd3c3bc6c
+
+Package: com.lhyee.wcfix
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: fix图标错位
+Description: 修复打开微信助手工具栏底栏图标错位的问题
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Section: 微信插件
+Filename: debs/fix图标错位-arm64.deb
+Size:     4492
+MD5sum: 7a222242855e228497e159f2b4fdab63
+SHA1: 63be3c5d73cb4a85fb54a862a529f04c063261bf
+SHA256: b25c7ff0359e47b06ab1a6041690a702fe0eca4cc75b0cfa17fdadacee71d7f7
+
+Package: com.lhyee.hdrhook
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 抖音关闭hdr
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/抖音关闭hdr.deb
+Size:     4016
+MD5sum: 7fbc174bc94ad0a25d4261206a34f9e4
+SHA1: cf66e93139df35e893cda6c62abcd95fa4208410
+SHA256: 1dbe0d0176a92759dd57190d96f5632a52f00f10f63c33011b84e5f3758ab8ab
+
+Package: com.lhyee.yincangwc
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 隐藏微信某些图标
+Description: 隐藏大家觉得碍眼的图标，隐藏后可以点击
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Section: 微信插件
+Filename: debs/隐藏微信一些图标.deb
+Size:     3836
+MD5sum: 0e123c0be7e651a2c1875d3115ca6bdb
+SHA1: 71497dec15ac50b472073fa227b7d53959dd9cda
+SHA256: 97b980b8239bedce63b83e5e87959f9ca428ee4efc078191921f88552691da7a
 
