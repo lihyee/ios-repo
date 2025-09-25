@@ -260,3 +260,35 @@ MD5sum: e5a666e445a3e1e196329cf6f85079fa
 SHA1: 78dac767faf0b924941ecf91a3a2c95421400f9e
 SHA256: 0c6420d73e4bcf2065e3210ee1e778c5e48b738bd92f325be2ba9c60d32d7f9f
 
+Package: com.yourepo.0xash.devicemonitor
+Architecture: iphoneos-arm64
+Name: DeviceMonitor
+Version: 0.0.9
+Description: An awesome MobileSubstrate tweak!
+Author: aodmin <krylov0@outlook.com>
+Depends: mobilesubstrate
+Maintainer: admin <krylov0@outlook.com>
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: 系统类插件
+Filename: debs/com.yourepo.0xash.devicemonitor_0.0.9_iphoneos-arm64.deb
+Size:    43668
+MD5sum: cd0cb364ee54d97738a53810d77b42dc
+SHA1: 2382f12dd6304b7db8114fd8d3b1a6c89598b91a
+SHA256: d3911ee286f63642c7c5dbe40a8a8e4c3208fa029ecfad7708e0a892b3bcc1d3
+
+Package: com.yourepo.0xash.fuckthermal
+Architecture: iphoneos-arm64
+Name: fuckthermal
+Version: 1.2-38
+Description: An awesome MobileSubstrate tweak!
+Author: Shadow- <krylov0@outlook.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader (>= 2.2.3)
+Maintainer: Shadow- <krylov0@outlook.com>
+Icon: https://lihyee.github.io/ios-repo/icons/com.yourepo.0xash.fuckthermal.png
+Section: 系统类插件
+Filename: debs/com.yourepo.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
+Size:   216168
+MD5sum: f4069c379e9f9f063d175f9e9b8d3460
+SHA1: 4f9357015a39dc5ae174326ff6c87f678412e512
+SHA256: 870be017c382bfc89e407e24946952f448535d08e65e46db15ce773c90f245e8
+
