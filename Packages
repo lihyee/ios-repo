@@ -199,7 +199,7 @@ SHA256: e24c286228f105b06030416ea1a886e711c0ca343c1ed8725ca08a71ccec7c41
 
 Package: com.xx.dyhook
 Name: 抖音图层
-Description: 自用
+Description: 最新版自用
 Maintainer: x✨
 Author: x✨
 Depends: mobilesubstrate (>= 0.9.5000)
