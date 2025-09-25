@@ -1,0 +1,36 @@
+Package: com.huami.dyyy
+Name: DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Homepage: https://github.com/huami1314/DYYY
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: huami
+Author: huami
+Architecture: iphoneos-arm64
+Version: 2.2-8
+Installed-Size: 2520
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: Tweaks
+Filename: debs/com.huami.dyyy_2.2-8_iphoneos-arm64.deb
+Size:   501844
+MD5sum: 55d092f2a6ae1a744f71d4f6330b82d0
+SHA1: dcf77b452ccf4b2889937c26afec7791553aaf70
+SHA256: 43134695d876d6b3ce8797faff185fdb6321320fc0e7e5abab2db52ec6828cf0
+
+Package: com.susu.wcfrostedglass
+Name: SuWCFrostedGlass
+Description: 微信界面上下添加毛玻璃效果，作者源：https://susubaby.top/0107/
+Maintainer: 苏苏
+Author: 苏苏
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Installed-Size: 168
+Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Section: 微信插件
+Filename: debs/com.susu.wcfrostedglass_1.0.5_iphoneos-arm64.deb
+Size:     4888
+MD5sum: 373e0a77dc19ce8fb5002cf1c4bee664
+SHA1: dc4575143c1a9c4a40931cbd8ea894867ffcbe4c
+SHA256: 1638b02f4ed0cea9c044c2e83ccd8ab535e8afb95c94f5e13c5031ebd3c3bc6c
+
