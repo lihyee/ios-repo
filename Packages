@@ -276,10 +276,11 @@ Maintainer: admin <krylov0@outlook.com>
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: 系统类插件
 Filename: debs/com.yourepo.0xash.devicemonitor_0.0.9_iphoneos-arm64.deb
-Size:    43668
-MD5sum: cd0cb364ee54d97738a53810d77b42dc
-SHA1: 2382f12dd6304b7db8114fd8d3b1a6c89598b91a
-SHA256: d3911ee286f63642c7c5dbe40a8a8e4c3208fa029ecfad7708e0a892b3bcc1d3
+Size: 43788
+MD5sum: a37e4fb1f8c72d80d62ebb42bf3db34d
+SHA1: 6929cbe823fd6b01aba08e848619828ccc278f77
+SHA256: 2b88326007ed36535626aeac0156c1ebcf7821e11908604c4ecc4f35f02958a1
+
 
 Package: com.yourepo.0xash.fuckthermal
 Architecture: iphoneos-arm64
@@ -292,8 +293,25 @@ Maintainer: Shadow- <krylov0@outlook.com>
 Icon: https://lihyee.github.io/ios-repo/icons/com.yourepo.0xash.fuckthermal.png
 Section: 系统类插件
 Filename: debs/com.yourepo.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
-Size:   216168
-MD5sum: f4069c379e9f9f063d175f9e9b8d3460
-SHA1: 4f9357015a39dc5ae174326ff6c87f678412e512
-SHA256: 870be017c382bfc89e407e24946952f448535d08e65e46db15ce773c90f245e8
+Size: 216300
+MD5sum: 70297d6ccf0a0f7481776e0c34926ed2
+SHA1: a1a0610f853f9f7e4a0397c57c1da8918e2df7ea
+SHA256: 0756584ba95d95ae5456710be8e7eaed6391c7b108551f466aec1af8328b4791
+
+
+Package: net.disableshuttersound
+Version: 1.1-2
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Installed-Size: 152
+Name: 禁用拍照声音
+Author: Netskao
+Description: Disable shutter sound禁用拍照声音
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: 系统类插件
+Filename: debs/net.disableshuttersound_1.1-2_iphoneos-arm64.deb
+Size: 3284
+MD5sum: 40cfd0e022f58922a72cbd93e93cffa6
+SHA1: 6f1ee11a2c3cd89aaf80efd68c229f31a23b9e8c
+SHA256: 2214ba01fd9e65fccb994dea6fd79d91d05c6ca7e3360d33a016f28c79bfe578
 
