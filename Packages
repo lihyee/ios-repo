@@ -36,25 +36,6 @@ SHA1: 5185af00117552ffc2fb496c98d45067a24e90d3
 SHA256: 538a5c7c257f69860a055d8f2fc039f50a61471d157a5f452031e71f67017cda
 
 
-Package: com.lhyee.huya
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: 虎牙去开屏NoAds
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://lihyee.github.io/ios-repo/tubiao.png
-Section: 去广告
-Filename: debs/com.lhyee.huya_1.0_iphoneos-arm64.deb
-Size: 3632
-MD5sum: 6cf13b682af37b8b3e9fef657718e19b
-SHA1: d8a670ffc33b30c4d3403e4d1e6a84aeac3e0384
-SHA256: 263383d03c6f714be80a6eb12bad33c8fe6a9db93819a1f5e29c1faad589e45b
-
-
 Package: com.lhyee.renshu
 Author: lhyee
 Priority: optional
@@ -183,26 +164,6 @@ MD5sum: 69b0ca041bf514757d82ad6424ef6ed7
 SHA1: 00a85c9e589fe3c5fb60df74af9a3636d3324ca2
 SHA256: a6efa8ed2b9d29c37b06f95de5ec08361e34a8d29a5160d60f814c9b629d99f3
 
-
-Package: me.tomt000.copylog
-Name: CopyLog汉化
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64
-Description: CopyLog汉化版
-Maintainer: TomT000
-Author: TomT000
-Conflicts: com.0xkuj.copylogfix16
-Version: 1.7
-Installed-Size: 5880
-Icon: https://lihyee.github.io/ios-repo/icons/me.tomt000.copylog.png
-Section: 系统类插件
-Filename: debs/me.tomt000.copylog_1.7_iphoneos-arm64.deb
-Size: 2279240
-MD5sum: c410199cd2735bf38929caf1a5bf36e9
-SHA1: 34e4448c9d34a1dc911a506b8f99810f419291ea
-SHA256: ffbcdaefb3e5412195c644948a764822ad263645a92d8eaa3491ff4a10d34374
-
-
 Package: com.lhyee.hdrhook
 Author: lhyee
 Priority: optional
@@ -314,4 +275,22 @@ Size: 3284
 MD5sum: 40cfd0e022f58922a72cbd93e93cffa6
 SHA1: 6f1ee11a2c3cd89aaf80efd68c229f31a23b9e8c
 SHA256: 2214ba01fd9e65fccb994dea6fd79d91d05c6ca7e3360d33a016f28c79bfe578
+
+Package: com.lhyee.huya
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 虎牙NoAds
+Description: 去除开屏和首页直播单元广告
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: Tweaks
+Filename: debs/com.lhyee.huya_1.0_iphoneos-arm64.deb
+Size:     7280
+MD5sum: f63ae802b7bce9a9faf0280ecb5fefe6
+SHA1: 2a53a8532b6f056d26c15ee2e8adfd39d56fe24d
+SHA256: 878bb4ab29f4d3b48c59053d7b79586699b529f787de97a58c90471040a89c35
 

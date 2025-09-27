@@ -36,25 +36,6 @@ SHA1: 5185af00117552ffc2fb496c98d45067a24e90d3
 SHA256: 538a5c7c257f69860a055d8f2fc039f50a61471d157a5f452031e71f67017cda
 
 
-Package: com.lhyee.huya
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: 虎牙去开屏NoAds
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://lihyee.github.io/ios-repo/tubiao.png
-Section: 去广告
-Filename: debs/com.lhyee.huya_1.0_iphoneos-arm64.deb
-Size: 3632
-MD5sum: 6cf13b682af37b8b3e9fef657718e19b
-SHA1: d8a670ffc33b30c4d3403e4d1e6a84aeac3e0384
-SHA256: 263383d03c6f714be80a6eb12bad33c8fe6a9db93819a1f5e29c1faad589e45b
-
-
 Package: com.lhyee.renshu
 Author: lhyee
 Priority: optional
@@ -183,26 +164,6 @@ MD5sum: 69b0ca041bf514757d82ad6424ef6ed7
 SHA1: 00a85c9e589fe3c5fb60df74af9a3636d3324ca2
 SHA256: a6efa8ed2b9d29c37b06f95de5ec08361e34a8d29a5160d60f814c9b629d99f3
 
-
-Package: me.tomt000.copylog
-Name: CopyLog汉化
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64
-Description: CopyLog汉化版
-Maintainer: TomT000
-Author: TomT000
-Conflicts: com.0xkuj.copylogfix16
-Version: 1.7
-Installed-Size: 5880
-Icon: https://lihyee.github.io/ios-repo/icons/me.tomt000.copylog.png
-Section: 系统类插件
-Filename: debs/me.tomt000.copylog_1.7_iphoneos-arm64.deb
-Size: 2279240
-MD5sum: c410199cd2735bf38929caf1a5bf36e9
-SHA1: 34e4448c9d34a1dc911a506b8f99810f419291ea
-SHA256: ffbcdaefb3e5412195c644948a764822ad263645a92d8eaa3491ff4a10d34374
-
-
 Package: com.lhyee.hdrhook
 Author: lhyee
 Priority: optional
@@ -276,10 +237,11 @@ Maintainer: admin <krylov0@outlook.com>
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: 系统类插件
 Filename: debs/com.yourepo.0xash.devicemonitor_0.0.9_iphoneos-arm64.deb
-Size:    43668
-MD5sum: cd0cb364ee54d97738a53810d77b42dc
-SHA1: 2382f12dd6304b7db8114fd8d3b1a6c89598b91a
-SHA256: d3911ee286f63642c7c5dbe40a8a8e4c3208fa029ecfad7708e0a892b3bcc1d3
+Size: 43788
+MD5sum: a37e4fb1f8c72d80d62ebb42bf3db34d
+SHA1: 6929cbe823fd6b01aba08e848619828ccc278f77
+SHA256: 2b88326007ed36535626aeac0156c1ebcf7821e11908604c4ecc4f35f02958a1
+
 
 Package: com.yourepo.0xash.fuckthermal
 Architecture: iphoneos-arm64
@@ -292,10 +254,11 @@ Maintainer: Shadow- <krylov0@outlook.com>
 Icon: https://lihyee.github.io/ios-repo/icons/com.yourepo.0xash.fuckthermal.png
 Section: 系统类插件
 Filename: debs/com.yourepo.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
-Size:   216168
-MD5sum: f4069c379e9f9f063d175f9e9b8d3460
-SHA1: 4f9357015a39dc5ae174326ff6c87f678412e512
-SHA256: 870be017c382bfc89e407e24946952f448535d08e65e46db15ce773c90f245e8
+Size: 216300
+MD5sum: 70297d6ccf0a0f7481776e0c34926ed2
+SHA1: a1a0610f853f9f7e4a0397c57c1da8918e2df7ea
+SHA256: 0756584ba95d95ae5456710be8e7eaed6391c7b108551f466aec1af8328b4791
+
 
 Package: net.disableshuttersound
 Version: 1.1-2
