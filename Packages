@@ -225,22 +225,6 @@ SHA1: 6929cbe823fd6b01aba08e848619828ccc278f77
 SHA256: 2b88326007ed36535626aeac0156c1ebcf7821e11908604c4ecc4f35f02958a1
 
 
-Package: com.yourepo.0xash.fuckthermal
-Architecture: iphoneos-arm64
-Name: fuckthermal去温控
-Version: 1.2-38
-Description: 去温控两件套其一，重启设备设置里需要重新关闭再打开
-Author: Shadow- <krylov0@outlook.com>
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader (>= 2.2.3)
-Maintainer: Shadow- <krylov0@outlook.com>
-Icon: https://lihyee.github.io/ios-repo/icons/com.yourepo.0xash.fuckthermal.png
-Section: 系统类插件
-Filename: debs/com.yourepo.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
-Size: 216300
-MD5sum: 70297d6ccf0a0f7481776e0c34926ed2
-SHA1: a1a0610f853f9f7e4a0397c57c1da8918e2df7ea
-SHA256: 0756584ba95d95ae5456710be8e7eaed6391c7b108551f466aec1af8328b4791
-
 
 Package: net.disableshuttersound
 Version: 1.1-2
@@ -271,10 +255,11 @@ Installed-Size: 88
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: Tweaks
 Filename: debs/com.lhyee.huya_1.0_iphoneos-arm64.deb
-Size:     7280
-MD5sum: f63ae802b7bce9a9faf0280ecb5fefe6
-SHA1: 2a53a8532b6f056d26c15ee2e8adfd39d56fe24d
-SHA256: 878bb4ab29f4d3b48c59053d7b79586699b529f787de97a58c90471040a89c35
+Size: 7332
+MD5sum: 063f79d9b55fa8302745448f61bc42eb
+SHA1: 026b0391d1fae78b3d115aec081f3d5ce8c27f72
+SHA256: 161a4ac8791db2d8152e4e003d3e00dbc707e1cb28b790fc380b29d3740925fa
+
 
 Package: com.lhyee.renshu
 Author: lhyee
@@ -306,8 +291,25 @@ Installed-Size: 180
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: Tweaks
 Filename: debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64.deb
-Size:    10466
-MD5sum: 6d5bf7b4ad07fd86bdda1224a71083b6
-SHA1: 72fde27044141599038c7c3c13cc8025543ead67
-SHA256: b455488c3f62b808538323ef6f96f6a1b1a01a2ce1eaf2b8da326174018e01da
+Size: 10604
+MD5sum: 867f8263a8176e375ca3f4bdd578769b
+SHA1: eea47a6d12f27d5bef3d1bc6cae0ddba92b02ca3
+SHA256: 00fa5db93c37b1df2567faaa586761a382ff029c6a6bfb4c6ba459ef76942f4a
+
+
+Package: com.yourepo.0xash.fuckthermal
+Architecture: iphoneos-arm64
+Name: fuckthermal去温控
+Version: 1.2-38
+Description: 去温控两件套其一，重启设备需设置重新关闭再打开，修改自用
+Author: Shadow- <krylov0@outlook.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader (>= 2.2.3)
+Maintainer: Shadow- <krylov0@outlook.com>
+Icon: https://lihyee.github.io/ios-repo/icons/com.yourepo.0xash.fuckthermal.png
+Section: 系统类插件
+Filename: debs/com.yourepo.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
+Size:   216160
+MD5sum: bc5cb79bae7d674bba32f2bcd92dab49
+SHA1: b536e62b034ec3580ad6a965c2461b535ffbf044
+SHA256: 9e1158cd633a69814bcb009e55b8cafe4888654b535af2cd63c166bf1972f4ed
 
