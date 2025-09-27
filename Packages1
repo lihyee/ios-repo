@@ -66,7 +66,7 @@ Description: 自用插件，微信圆角
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 92
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Icon: https://www.susuboy.cn/images/wechat.png
 Section: 微信插件
 Filename: debs/com.lhyee.wcqwq_1.0_iphoneos-arm64.deb
 Size: 10148
@@ -102,7 +102,7 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64
 Version: 1.0.5
 Installed-Size: 168
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Icon: https://www.susuboy.cn/images/wechat.png
 Section: 微信插件
 Filename: debs/com.susu.wcfrostedglass_1.0.5_iphoneos-arm64.deb
 Size: 4888
@@ -138,7 +138,7 @@ Description: 修复打开微信助手工具栏底栏图标错位的问题
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 88
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Icon: https://www.susuboy.cn/images/wechat.png
 Section: 微信插件
 Filename: debs/fix图标错位-arm64.deb
 Size: 4564
@@ -175,7 +175,7 @@ Description: 隐藏大家觉得碍眼的图标，隐藏后可以点击
 Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 88
-Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
+Icon: https://www.susuboy.cn/images/wechat.png
 Section: 微信插件
 Filename: debs/隐藏微信一些图标.deb
 Size: 3896
@@ -255,10 +255,11 @@ Installed-Size: 88
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: Tweaks
 Filename: debs/com.lhyee.huya_1.0_iphoneos-arm64.deb
-Size:     7280
-MD5sum: f63ae802b7bce9a9faf0280ecb5fefe6
-SHA1: 2a53a8532b6f056d26c15ee2e8adfd39d56fe24d
-SHA256: 878bb4ab29f4d3b48c59053d7b79586699b529f787de97a58c90471040a89c35
+Size: 7332
+MD5sum: 063f79d9b55fa8302745448f61bc42eb
+SHA1: 026b0391d1fae78b3d115aec081f3d5ce8c27f72
+SHA256: 161a4ac8791db2d8152e4e003d3e00dbc707e1cb28b790fc380b29d3740925fa
+
 
 Package: com.lhyee.renshu
 Author: lhyee
@@ -290,10 +291,11 @@ Installed-Size: 180
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: Tweaks
 Filename: debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64.deb
-Size:    10466
-MD5sum: 6d5bf7b4ad07fd86bdda1224a71083b6
-SHA1: 72fde27044141599038c7c3c13cc8025543ead67
-SHA256: b455488c3f62b808538323ef6f96f6a1b1a01a2ce1eaf2b8da326174018e01da
+Size: 10604
+MD5sum: 867f8263a8176e375ca3f4bdd578769b
+SHA1: eea47a6d12f27d5bef3d1bc6cae0ddba92b02ca3
+SHA256: 00fa5db93c37b1df2567faaa586761a382ff029c6a6bfb4c6ba459ef76942f4a
+
 
 Package: com.yourepo.0xash.fuckthermal
 Architecture: iphoneos-arm64
