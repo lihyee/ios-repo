@@ -69,10 +69,11 @@ Installed-Size: 92
 Icon: https://www.susuboy.cn/images/wechat.png
 Section: 微信插件
 Filename: debs/com.lhyee.wcqwq_1.0_iphoneos-arm64.deb
-Size: 10148
-MD5sum: 78a308488c99a33776016612908f6664
-SHA1: ea82e6559bfda31224df3cac7fb7466b3c4429b5
-SHA256: 8a4742a7b23e01a98a7edc74bf206519aa756da2c35eb7b605a35fe89614ee45
+Size: 10128
+MD5sum: 99d0475477d6abcbd9700636f3abe108
+SHA1: 5c1572a00c22aebecce549254005fbc30f016729
+SHA256: 782ef9de039351cb9a42caf51e4dd4a3a98eed7b0cda49ae6e335fdd3f8e133c
+
 
 
 Package: com.susu.fuckwechatads
@@ -105,10 +106,11 @@ Installed-Size: 168
 Icon: https://www.susuboy.cn/images/wechat.png
 Section: 微信插件
 Filename: debs/com.susu.wcfrostedglass_1.0.5_iphoneos-arm64.deb
-Size: 4888
-MD5sum: 373e0a77dc19ce8fb5002cf1c4bee664
-SHA1: dc4575143c1a9c4a40931cbd8ea894867ffcbe4c
-SHA256: 1638b02f4ed0cea9c044c2e83ccd8ab535e8afb95c94f5e13c5031ebd3c3bc6c
+Size: 4884
+MD5sum: 8e28f3d8e8942eda3889df3b5bdf702b
+SHA1: 5612afa9d07e369b0fde920ed3d3717dfe8256b8
+SHA256: dc8bba0e37d5bc4458c7ae668516283c2d7456cdc72ecdff19d05a7007d6e9f5
+
 
 Package: com.xx.dyhook
 Name: 抖音图层
@@ -141,10 +143,11 @@ Installed-Size: 88
 Icon: https://www.susuboy.cn/images/wechat.png
 Section: 微信插件
 Filename: debs/fix图标错位-arm64.deb
-Size: 4564
-MD5sum: 69b0ca041bf514757d82ad6424ef6ed7
-SHA1: 00a85c9e589fe3c5fb60df74af9a3636d3324ca2
-SHA256: a6efa8ed2b9d29c37b06f95de5ec08361e34a8d29a5160d60f814c9b629d99f3
+Size: 4544
+MD5sum: 6a8b0f494e4389114a871227278d30cd
+SHA1: 4ffe7b89435f96cd06a36ffbab50e78c9780a25f
+SHA256: 0eb66465c6cb216d6372b7d411b81f986fea57621bd12cbe2654051ad1e482ae
+
 
 Package: com.lhyee.hdrhook
 Author: lhyee
@@ -178,10 +181,11 @@ Installed-Size: 88
 Icon: https://www.susuboy.cn/images/wechat.png
 Section: 微信插件
 Filename: debs/隐藏微信一些图标.deb
-Size: 3896
-MD5sum: e235163577bcdc9ebb797c4661f7acbb
-SHA1: 8b736d7b000d849e6fd12e4c2a3e8bed517652b4
-SHA256: 2803b311c0d0db9de20d727c1204017ed01789f9b26e922a877758ca325c5845
+Size: 3872
+MD5sum: 871c9dcbf760b33e546b3b9a22779efb
+SHA1: e07e59232c43fadc6212678ce85071b71c2c0160
+SHA256: c06d6a790fb26e2584dc9340f4b29bdd0c3f03342f7afef47105933f48644389
+
 
 
 Package: com.vita.yuki
@@ -237,10 +241,11 @@ Description: Disable shutter sound禁用拍照声音
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: 系统类插件
 Filename: debs/net.disableshuttersound_1.1-2_iphoneos-arm64.deb
-Size: 3284
-MD5sum: 40cfd0e022f58922a72cbd93e93cffa6
-SHA1: 6f1ee11a2c3cd89aaf80efd68c229f31a23b9e8c
-SHA256: 2214ba01fd9e65fccb994dea6fd79d91d05c6ca7e3360d33a016f28c79bfe578
+Size: 3280
+MD5sum: 098b8d9f8690791807791f4143bc3186
+SHA1: 21fee11dd3d9d13d40a30b5c3821f7ab97b3341c
+SHA256: 17566bffe711929d95122446c4304426b5c3f560984b7bd1a21e7e645bc3454b
+
 
 Package: com.lhyee.huya
 Author: lhyee
@@ -255,10 +260,12 @@ Installed-Size: 88
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: Tweaks
 Filename: debs/com.lhyee.huya_1.0_iphoneos-arm64.deb
-Size: 7332
-MD5sum: 063f79d9b55fa8302745448f61bc42eb
-SHA1: 026b0391d1fae78b3d115aec081f3d5ce8c27f72
-SHA256: 161a4ac8791db2d8152e4e003d3e00dbc707e1cb28b790fc380b29d3740925fa
+Size: 7348
+MD5sum: 68ad55b62f3dd552aa8ca49f4bb22b41
+SHA1: 893bf6399731068e6793e020cb487e013545404c
+SHA256: 1ce3dd9a51d5609c4e5ea5621a0724d02abc2d0a511ab9b922c0b872b1eb8508
+
+
 
 
 Package: com.lhyee.renshu
@@ -291,10 +298,12 @@ Installed-Size: 180
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: Tweaks
 Filename: debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64.deb
-Size: 10604
-MD5sum: 867f8263a8176e375ca3f4bdd578769b
-SHA1: eea47a6d12f27d5bef3d1bc6cae0ddba92b02ca3
-SHA256: 00fa5db93c37b1df2567faaa586761a382ff029c6a6bfb4c6ba459ef76942f4a
+Size: 10592
+MD5sum: df5f253ac31440642b529b4194b0ac68
+SHA1: 18790e8d582f7ecdd774b58ab47611f88b506633
+SHA256: c5125c77f4b45b3bb526c297b4233ec26762f08f84c96ee31deb98c7db353f47
+
+
 
 
 Package: com.yourepo.0xash.fuckthermal

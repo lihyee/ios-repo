@@ -255,10 +255,11 @@ Installed-Size: 88
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: Tweaks
 Filename: debs/com.lhyee.huya_1.0_iphoneos-arm64.deb
-Size: 7332
-MD5sum: 063f79d9b55fa8302745448f61bc42eb
-SHA1: 026b0391d1fae78b3d115aec081f3d5ce8c27f72
-SHA256: 161a4ac8791db2d8152e4e003d3e00dbc707e1cb28b790fc380b29d3740925fa
+Size: 7328
+MD5sum: 8447047883214301a12839376a5c4455
+SHA1: e300494d3c60f1f5ba16fb662d4763d7ae12e0a2
+SHA256: e86c5101babe26178fb797c5a33aedcd98813e48bea3267c58d32065cfb30933
+
 
 
 Package: com.lhyee.renshu
@@ -291,10 +292,11 @@ Installed-Size: 180
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: Tweaks
 Filename: debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64.deb
-Size: 10604
-MD5sum: 867f8263a8176e375ca3f4bdd578769b
-SHA1: eea47a6d12f27d5bef3d1bc6cae0ddba92b02ca3
-SHA256: 00fa5db93c37b1df2567faaa586761a382ff029c6a6bfb4c6ba459ef76942f4a
+Size: 10596
+MD5sum: b5b55bfc56187c252242b54c8f0b7d80
+SHA1: 02fe8f9aac49cb55d50454019e87f863ea04c387
+SHA256: 9eccdfcd4e1d36fe2fc5ef2b1888128313ee43d3d7569d78ba8a6953fbc26cbb
+
 
 
 Package: com.yourepo.0xash.fuckthermal
