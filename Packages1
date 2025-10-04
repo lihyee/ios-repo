@@ -247,24 +247,6 @@ SHA1: 21fee11dd3d9d13d40a30b5c3821f7ab97b3341c
 SHA256: 17566bffe711929d95122446c4304426b5c3f560984b7bd1a21e7e645bc3454b
 
 
-Package: com.lhyee.huya
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: 虎牙NoAds
-Description: 去除开屏和首页直播单元广告
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://lihyee.github.io/ios-repo/tubiao.png
-Section: Tweaks
-Filename: debs/com.lhyee.huya_1.0_iphoneos-arm64.deb
-Size: 7348
-MD5sum: 68ad55b62f3dd552aa8ca49f4bb22b41
-SHA1: 893bf6399731068e6793e020cb487e013545404c
-SHA256: 1ce3dd9a51d5609c4e5ea5621a0724d02abc2d0a511ab9b922c0b872b1eb8508
-
 
 
 

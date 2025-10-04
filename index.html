@@ -1,337 +1,262 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的越狱源</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"/>
+    <title>添加越狱源 - lhyee's Repo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
+            background: linear-gradient(135deg, #ffb6c1 0%, #ffc0cb 50%, #ffb6c1 100%);
             color: #333;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
 
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .header {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
             text-align: center;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            background-color: #ffffff;
+            box-shadow: 0 15px 35px rgba(255, 182, 193, 0.3);
+            border-radius: 25px;
+            width: 320px;
+            position: relative;
+            overflow: hidden;
         }
 
-        .header h1 {
-            font-size: 2.5em;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 10px;
+        .container::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255, 192, 203, 0.1), transparent);
+            animation: shimmer 3s ease-in-out infinite;
+            pointer-events: none;
         }
 
-        .header p {
-            color: #666;
-            font-size: 1.1em;
-            line-height: 1.6;
+        @keyframes shimmer {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            50% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+            100% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
         }
 
-        .repo-url {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 20px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        .avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            border: 4px solid #ffb6c1;
+            box-shadow: 0 8px 16px rgba(255, 182, 193, 0.4);
+            animation: float 3s ease-in-out infinite;
         }
 
-        .repo-url h2 {
-            color: #333;
-            margin-bottom: 15px;
-            font-size: 1.3em;
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
         }
 
-        .url-box {
-            background: #f8f9fa;
-            border: 2px solid #e9ecef;
-            border-radius: 10px;
-            padding: 15px;
-            font-family: 'Monaco', 'Menlo', monospace;
-            font-size: 14px;
-            word-break: break-all;
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0 0 10px;
+            color: #2c3e50;
             position: relative;
         }
 
-        .copy-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background: #667eea;
+        .repo-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 0 30px;
+            color: #e74c3c;
+            background: linear-gradient(45deg, #e74c3c, #ffb6c1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .url-display {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 15px;
+            margin: 20px 0;
+            border: 2px dashed #ffb6c1;
+            font-family: monospace;
+            font-size: 14px;
+            color: #666;
+            word-break: break-all;
+        }
+
+        .copy-button {
+            background: linear-gradient(45deg, #ffb6c1, #ffc0cb);
             color: white;
             border: none;
-            border-radius: 5px;
-            padding: 5px 10px;
+            padding: 12px 25px;
+            border-radius: 20px;
             cursor: pointer;
-            font-size: 12px;
-            transition: background 0.3s;
+            font-size: 14px;
+            margin: 15px auto;
+            display: block;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 12px rgba(255, 182, 193, 0.4);
         }
 
-        .copy-btn:hover {
-            background: #5a6fd8;
+        .copy-button:hover {
+            background: linear-gradient(45deg, #ff91a4, #ffb6c1);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(255, 182, 193, 0.6);
         }
 
-        .packages {
-            display: grid;
-            gap: 20px;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        .button {
+            display: block;
+            margin: 20px auto;
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background: linear-gradient(45deg, #ffb6c1, #ffc0cb);
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 15px rgba(255, 182, 193, 0.4);
         }
 
-        .package-card {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 20px rgba(255, 182, 193, 0.6);
+        }
+
+        .button:active {
+            transform: translateY(0px);
+        }
+
+        .button i {
+            margin-right: 8px;
+        }
+
+        .description {
+            margin: 30px 0;
+            text-align: center;
+            padding: 15px;
+            background: rgba(255, 182, 193, 0.1);
             border-radius: 15px;
-            padding: 25px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-
-        .package-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
-        }
-
-        .package-icon {
-            width: 60px;
-            height: 60px;
-            border-radius: 15px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 24px;
-            margin-bottom: 15px;
-        }
-
-        .package-name {
-            font-size: 1.3em;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: #333;
-        }
-
-        .package-description {
+            font-size: 16px;
             color: #666;
-            line-height: 1.6;
-            margin-bottom: 15px;
-        }
-
-        .package-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 15px;
-            border-top: 1px solid #e9ecef;
-        }
-
-        .package-version {
-            background: #e3f2fd;
-            color: #1976d2;
-            padding: 4px 10px;
-            border-radius: 12px;
-            font-size: 0.9em;
             font-weight: 500;
         }
 
-        .package-size {
+        .maintenance-notice {
+            font-size: 12px;
             color: #999;
-            font-size: 0.9em;
+            margin-top: 20px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.05);
+            border-radius: 10px;
         }
 
-        .instructions {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 25px;
-            margin-top: 30px;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        .heart {
+            color: #e74c3c;
+            animation: heartbeat 1.5s ease-in-out infinite;
         }
 
-        .instructions h2 {
-            color: #333;
-            margin-bottom: 20px;
-            font-size: 1.4em;
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
         }
 
-        .instructions ol {
-            padding-left: 20px;
-            line-height: 1.8;
-            color: #555;
-        }
-
-        .instructions li {
-            margin-bottom: 10px;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            color: rgba(255, 255, 255, 0.8);
-        }
-
-        @media (max-width: 768px) {
+        @media (max-width: 480px) {
             .container {
-                padding: 15px;
-            }
-            
-            .header h1 {
-                font-size: 2em;
-            }
-            
-            .packages {
-                grid-template-columns: 1fr;
+                width: 90%;
+                padding: 30px 20px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- 头部信息 -->
-        <div class="header">
-            <h1>我的越狱源</h1>
-            <p>提供高质量的iOS越狱插件和工具<br>
-            Compatible with iOS 13.0 - 16.7.x</p>
+        <img src="https://github.com/lihyee/ios-repo/blob/main/CydiaIcon.png?raw=true" alt="lhyee's Repo" class="avatar">
+        
+        <h1>添加越狱源</h1>
+        <div class="repo-name">lhyee's Repo</div>
+        
+        <div class="url-display">
+            https://lihyee.github.io/ios-repo/
         </div>
 
-        <!-- 源地址 -->
-        <div class="repo-url">
-            <h2>�� 源地址</h2>
-            <div class="url-box">
-                <button class="copy-btn" onclick="copyURL()">复制</button>
-                <span id="repoURL">https://你的用户名.github.io/仓库名/</span>
-            </div>
+        <button class="copy-button" onclick="copyToClipboard()">
+            <i class="fas fa-copy"></i> 复制源地址
+        </button>
+
+        <div class="description">
+            一个自用的越狱源
         </div>
 
-        <!-- 插件列表 -->
-        <div class="packages">
-            <!-- 示例插件1 -->
-            <div class="package-card">
-                <div class="package-icon">��</div>
-                <div class="package-name">ColorBadges</div>
-                <div class="package-description">
-                    为应用图标添加彩色徽章效果，支持自定义颜色和透明度设置。
-                </div>
-                <div class="package-info">
-                    <span class="package-version">v1.2.3</span>
-                    <span class="package-size">156 KB</span>
-                </div>
-            </div>
+        <a href="sileo://source/https://lihyee.github.io/ios-repo/" class="button">
+            <i class="fas fa-download"></i>添加到 Sileo
+        </a>
 
-            <!-- 示例插件2 -->
-            <div class="package-card">
-                <div class="package-icon">⚡</div>
-                <div class="package-name">FastUnlock</div>
-                <div class="package-description">
-                    加快解锁动画速度，让你的设备响应更迅速。支持TouchID和FaceID。
-                </div>
-                <div class="package-info">
-                    <span class="package-version">v2.0.1</span>
-                    <span class="package-size">89 KB</span>
-                </div>
-            </div>
-
-            <!-- 示例插件3 -->
-            <div class="package-card">
-                <div class="package-icon">��</div>
-                <div class="package-name">NightMode+</div>
-                <div class="package-description">
-                    增强夜间模式功能，支持更多应用和系统界面的深色主题。
-                </div>
-                <div class="package-info">
-                    <span class="package-version">v3.1.0</span>
-                    <span class="package-size">234 KB</span>
-                </div>
-            </div>
-
-            <!-- 示例插件4 -->
-            <div class="package-card">
-                <div class="package-icon">��</div>
-                <div class="package-name">SystemInfo</div>
-                <div class="package-description">
-                    在设置中显示详细的系统信息，包括CPU、内存、存储等硬件信息。
-                </div>
-                <div class="package-info">
-                    <span class="package-version">v1.5.2</span>
-                    <span class="package-size">178 KB</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- 安装说明 -->
-        <div class="instructions">
-            <h2>�� 安装说明</h2>
-            <ol>
-                <li>确保你的设备已经越狱</li>
-                <li>打开Cydia、Zebra或Sileo等包管理器</li>
-                <li>点击"源"或"Sources"选项卡</li>
-                <li>点击"编辑"然后点击"添加"</li>
-                <li>输入上方的源地址</li>
-                <li>等待源加载完成，即可浏览和安装插件</li>
-            </ol>
-        </div>
-
-        <!-- 页脚 -->
-        <div class="footer">
-            <p>© 2024 我的越狱源 | 仅供学习交流使用</p>
+        <div class="maintenance-notice">
+            <i class="fas fa-heart heart"></i>
+            欢迎使用 lhyee's Repo！
+            <br>
+            个人自用源
         </div>
     </div>
 
     <script>
-        function copyURL() {
-            const urlText = document.getElementById('repoURL').textContent;
-            navigator.clipboard.writeText(urlText).then(function() {
-                const btn = document.querySelector('.copy-btn');
-                const originalText = btn.textContent;
-                btn.textContent = '已复制!';
-                btn.style.background = '#4caf50';
+        function copyToClipboard() {
+            const url = 'https://lihyee.github.io/ios-repo/';
+            navigator.clipboard.writeText(url).then(function() {
+                const button = document.querySelector('.copy-button');
+                const originalText = button.innerHTML;
+                button.innerHTML = '<i class="fas fa-check"></i> 已复制到剪贴板';
+                button.style.background = 'linear-gradient(45deg, #98fb98, #90ee90)';
                 
                 setTimeout(function() {
-                    btn.textContent = originalText;
-                    btn.style.background = '#667eea';
+                    button.innerHTML = originalText;
+                    button.style.background = 'linear-gradient(45deg, #ffb6c1, #ffc0cb)';
                 }, 2000);
-            }).catch(function() {
-                // 备用复制方法
+            }).catch(function(err) {
+                console.error('复制失败: ', err);
+                // 降级方案
                 const textArea = document.createElement('textarea');
-                textArea.value = urlText;
+                textArea.value = url;
                 document.body.appendChild(textArea);
                 textArea.select();
                 document.execCommand('copy');
                 document.body.removeChild(textArea);
                 
-                const btn = document.querySelector('.copy-btn');
-                const originalText = btn.textContent;
-                btn.textContent = '已复制!';
-                btn.style.background = '#4caf50';
+                const button = document.querySelector('.copy-button');
+                const originalText = button.innerHTML;
+                button.innerHTML = '<i class="fas fa-check"></i> 已复制到剪贴板';
+                button.style.background = 'linear-gradient(45deg, #98fb98, #90ee90)';
                 
                 setTimeout(function() {
-                    btn.textContent = originalText;
-                    btn.style.background = '#667eea';
+                    button.innerHTML = originalText;
+                    button.style.background = 'linear-gradient(45deg, #ffb6c1, #ffc0cb)';
                 }, 2000);
             });
         }
+
+        // 添加一些可爱的交互效果
+        document.addEventListener('DOMContentLoaded', function() {
+            const avatar = document.querySelector('.avatar');
+            avatar.addEventListener('click', function() {
+                this.style.animation = 'none';
+                setTimeout(() => {
+                    this.style.animation = 'float 3s ease-in-out infinite';
+                }, 10);
+            });
+        });
     </script>
 </body>
 </html>

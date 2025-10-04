@@ -268,23 +268,6 @@ MD5sum: dbc63c7e3e8193ef060df1e5afcc9930
 SHA1: 2df4389bf31ec760fbcea45b7b2ad24d82f90cf2
 SHA256: f33e066dce8db6ba7e15e32677e81f0bfd4a90bca165e06d0fda0998d206626b
 
-Package: com.susu.snapper3.picta
-Name: Picta
-Description: Picta适配 Snapper3 的插件
-Maintainer: SuSu
-Author: SuSu
-Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 180
-Icon: https://lihyee.github.io/ios-repo/tubiao.png
-Section: Tweaks
-Filename: debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64.deb
-Size: 10592
-MD5sum: df5f253ac31440642b529b4194b0ac68
-SHA1: 18790e8d582f7ecdd774b58ab47611f88b506633
-SHA256: c5125c77f4b45b3bb526c297b4233ec26762f08f84c96ee31deb98c7db353f47
-
 
 
 
@@ -303,4 +286,21 @@ Size:   216160
 MD5sum: bc5cb79bae7d674bba32f2bcd92dab49
 SHA1: b536e62b034ec3580ad6a965c2461b535ffbf044
 SHA256: 9e1158cd633a69814bcb009e55b8cafe4888654b535af2cd63c166bf1972f4ed
+
+Package: com.susu.snapper3.picta
+Name: Picta
+Description: Picta适配 Snapper3 的插件
+Maintainer: SuSu
+Author: SuSu
+Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 180
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: Tweaks
+Filename: debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64.deb
+Size: 10466
+MD5sum: 6d5bf7b4ad07fd86bdda1224a71083b6
+SHA1: 72fde27044141599038c7c3c13cc8025543ead67
+SHA256: b455488c3f62b808538323ef6f96f6a1b1a01a2ce1eaf2b8da326174018e01da
 
