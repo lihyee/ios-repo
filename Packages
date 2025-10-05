@@ -282,10 +282,11 @@ Maintainer: Shadow- <krylov0@outlook.com>
 Icon: https://lihyee.github.io/ios-repo/icons/com.yourepo.0xash.fuckthermal.png
 Section: 系统类插件
 Filename: debs/com.yourepo.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
-Size: 216392
-MD5sum: 7f6e324f0d20bbee0e35eb1a7ca5a13b
-SHA1: 8d565c2785da07e49cd43f08cabdc316680daf78
-SHA256: 0fa78e583330ab8d90da38eea51e5a2e71faa3391b7ade3646a4cd96ac78e0f1
+Size: 216432
+MD5sum: b024cd98eab8ab3e2c21dee93fd492da
+SHA1: 403ecf7aef691957f379738d5fdc8a5e653c85d2
+SHA256: 36f68cd4678250da400ef45af8e206bf7b657f139e58edcf3efe603e71c862cd
+
 
 
 Package: com.susu.snapper3.picta
@@ -300,10 +301,11 @@ Installed-Size: 180
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: Tweaks
 Filename: debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64.deb
-Size: 10588
-MD5sum: 667a718ecb4f636d2774ee60ddb4c0d9
-SHA1: 847f6d9fdc9a99e00309f67d0aab85d0db91a566
-SHA256: 05ae861b2c47e8550bc89d707c63e609e6c89db4455610b03664dcfb9a221dd9
+Size: 10580
+MD5sum: ebb5e2b956b0562a1d3e7356dd681604
+SHA1: a783f23cdf0fd6d4d2832202378636b4bf69d25c
+SHA256: 8e5fabc19ccdfa43ba9a3fcdbf6bb0bf10c0628381493043b618f0fa6bc018b7
+
 
 
 
@@ -320,10 +322,11 @@ Installed-Size: 204
 Icon: https://lihyee.github.io/ios-repo/icons/huya.png
 Section: 去广告
 Filename: debs/com.lhyee.simplehuya_1.0_iphoneos-arm64.deb
-Size: 21196
-MD5sum: 1effbc5b915b7981e9cb4c609c388886
-SHA1: 1d3cc34b4fab761f6e9f610b84b324d8ae63e298
-SHA256: 97687e3bf15e92bad7704e0d19a2fbeb4844948ab992f7eed7b999cdf002f109
+Size: 21056
+MD5sum: 954712fe7c201dcb3fe0ff4298b36b6e
+SHA1: e10af75a938bf62bb6d2ca46b0036793020070e9
+SHA256: a63a19ad84d61bc9c4788cfa66ad738f18b7aedd76b980b64d3ed90f5205ddb8
+
 
 
 
