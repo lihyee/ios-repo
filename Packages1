@@ -299,10 +299,11 @@ Installed-Size: 180
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: Tweaks
 Filename: debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64.deb
-Size: 10466
-MD5sum: 6d5bf7b4ad07fd86bdda1224a71083b6
-SHA1: 72fde27044141599038c7c3c13cc8025543ead67
-SHA256: b455488c3f62b808538323ef6f96f6a1b1a01a2ce1eaf2b8da326174018e01da
+Size: 10596
+MD5sum: 26559a7d405cdc8b5c4b6dc807d90d3c
+SHA1: a9aa473f2f2de10fa2f3949838a4507cb011395c
+SHA256: 3014b768e9b54cf22a9d3dc6ef395ea6d06b5dcf08b02c7648bea763308302f9
+
 
 Package: com.lhyee.simplehuya
 Author: lhyee
@@ -317,8 +318,9 @@ Installed-Size: 204
 Icon: https://lihyee.github.io/ios-repo/icons/huya.png
 Section: 去广告
 Filename: debs/com.lhyee.simplehuya_1.0_iphoneos-arm64.deb
-Size:    21078
-MD5sum: 66173e7728aa9fc886e4517907cb7efd
-SHA1: 7668b2c3bd11f8c8b7d862131e521e52fb19c76a
-SHA256: 070c6848d80c4b73d0fb4acd393a22fc53a43d893c4bd4d969099d6cf3ee5d2b
+Size: 21052
+MD5sum: f37de9a8e4a1680e8037f6ac50b51768
+SHA1: b946c32e06df36d17f033f0460bd2f13786bf0a4
+SHA256: 0637afc4b9144305b953b15fa8afa4e4cc7806d29ffdf252630ee2220a374d80
+
 
