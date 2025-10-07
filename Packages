@@ -112,23 +112,6 @@ SHA1: 5612afa9d07e369b0fde920ed3d3717dfe8256b8
 SHA256: dc8bba0e37d5bc4458c7ae668516283c2d7456cdc72ecdff19d05a7007d6e9f5
 
 
-Package: com.xx.dyhook
-Name: 抖音图层
-Description: 最新版自用
-Maintainer: x✨
-Author: x✨
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 2.3.1-6
-Installed-Size: 11380
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Section: 抖音插件
-Filename: debs/com.xx.dyhook_2.3.1-6_iphoneos-arm64.deb
-Size: 3503656
-MD5sum: c9b511f4dec886b35063b1dc9e43d58c
-SHA1: 0830c33d4b43d449e715f322c29764382022cf27
-SHA256: 5bcf7abcf5958fc891a08b398d6433a1f57682dee2e68b7c602037a38ec2379a
-
 
 Package: com.lhyee.wcfix
 Author: lhyee
@@ -250,24 +233,6 @@ SHA256: 17566bffe711929d95122446c4304426b5c3f560984b7bd1a21e7e645bc3454b
 
 
 
-Package: com.lhyee.renshu
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: firmware (>= 15.0)
-Name: 直播真实人数
-Description: 抖音直播真实人数
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Section: 抖音插件
-Filename: debs/com.lhyee.renshu_1.0_iphoneos-arm64.deb
-Size:     5064
-MD5sum: dbc63c7e3e8193ef060df1e5afcc9930
-SHA1: 2df4389bf31ec760fbcea45b7b2ad24d82f90cf2
-SHA256: f33e066dce8db6ba7e15e32677e81f0bfd4a90bca165e06d0fda0998d206626b
-
 
 
 
@@ -329,4 +294,39 @@ SHA256: a63a19ad84d61bc9c4788cfa66ad738f18b7aedd76b980b64d3ed90f5205ddb8
 
 
 
+
+Package: com.lhyee.renshu
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: firmware (>= 15.0)
+Name: 直播真实人数
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/com.lhyee.renshu_1.0_iphoneos-arm64.deb
+Size: 4472
+MD5sum: 7bb5554897be30f6bfdf3a59a1de16d7
+SHA1: 6b272206635e1a4227fdff88285bbf378a7366f7
+SHA256: bbb1c998dbbe1b5ac0b59ba8f94c14a2b4b8b2c311ac7703566147aa68d7a382
+
+Package: com.xx.dyhook
+Name: 抖音图层
+Description: 自用
+Maintainer: x✨
+Author: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3.1-7
+Installed-Size: 11248
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/com.xx.dyhook_2.3.1-7_iphoneos-arm64.deb
+Size:  3496180
+MD5sum: a17169ae8c73f8e9d9d9cc929d220071
+SHA1: 88893ab6464e400b3cdbf999fe71d894dd040ff8
+SHA256: 929448dec5617b55e3bf2afce3dba5358994b8aa35fae8075d05505fdc2a846d
 
