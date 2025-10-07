@@ -16,7 +16,7 @@ Size:   501844
 MD5sum: 55d092f2a6ae1a744f71d4f6330b82d0
 SHA1: dcf77b452ccf4b2889937c26afec7791553aaf70
 SHA256: 43134695d876d6b3ce8797faff185fdb6321320fc0e7e5abab2db52ec6828cf0
-Depiction: https://lihyee.github.io/ios-repo/json/DYYY.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/DYYY.json
 
 Package: com.lhyee.feizhi
 Author: lhyee
@@ -35,7 +35,7 @@ Size:     5548
 MD5sum: 1e56a865c0989b7232af274e918377ef
 SHA1: 5185af00117552ffc2fb496c98d45067a24e90d3
 SHA256: 538a5c7c257f69860a055d8f2fc039f50a61471d157a5f452031e71f67017cda
-Depiction: https://lihyee.github.io/ios-repo/json/取消飞智超频弹窗.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/取消飞智超频弹窗.json
 
 Package: com.lhyee.renshu
 Author: lhyee
@@ -54,7 +54,7 @@ Size:     4472
 MD5sum: 7bb5554897be30f6bfdf3a59a1de16d7
 SHA1: 6b272206635e1a4227fdff88285bbf378a7366f7
 SHA256: bbb1c998dbbe1b5ac0b59ba8f94c14a2b4b8b2c311ac7703566147aa68d7a382
-Depiction: https://lihyee.github.io/ios-repo/json/直播真实人数.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/直播真实人数.json
 
 Package: com.lhyee.simplehuya
 Author: lhyee
@@ -73,7 +73,7 @@ Size:    21056
 MD5sum: 954712fe7c201dcb3fe0ff4298b36b6e
 SHA1: e10af75a938bf62bb6d2ca46b0036793020070e9
 SHA256: a63a19ad84d61bc9c4788cfa66ad738f18b7aedd76b980b64d3ed90f5205ddb8
-Depiction: https://lihyee.github.io/ios-repo/json/simple虎牙.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/simple虎牙.json
 
 Package: com.lhyee.soul
 Author: lhyee
@@ -92,7 +92,7 @@ Size:     2300
 MD5sum: 285c3a862ef8e825824c0ca958329895
 SHA1: cedb0f77bf04518993ba156c7706a14b81f24a0c
 SHA256: 984964d713faaec235232090539d17359a326602f0f1992d6ece20889b30d115
-Depiction: https://lihyee.github.io/ios-repo/json/soul隐藏已读.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/soul隐藏已读.json
 
 Package: com.lhyee.wcqwq
 Author: lhyee
@@ -111,7 +111,7 @@ Size:    10128
 MD5sum: 99d0475477d6abcbd9700636f3abe108
 SHA1: 5c1572a00c22aebecce549254005fbc30f016729
 SHA256: 782ef9de039351cb9a42caf51e4dd4a3a98eed7b0cda49ae6e335fdd3f8e133c
-Depiction: https://lihyee.github.io/ios-repo/json/WCqwq.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/WCqwq.json
 
 Package: com.susu.fuckwechatads
 Name: FuckWeChatAds
@@ -129,7 +129,7 @@ Size:    16904
 MD5sum: b5b57396d69b2d624aa4104b31e3bdf4
 SHA1: 2da75738df2547251bd4126fcdc9c07b1e4be87b
 SHA256: ec26f978512f6b1a194c6b29244074080d9d3bba487a77d36e2a94dc11162d29
-Depiction: https://lihyee.github.io/ios-repo/json/FuckWeChatAds.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/FuckWeChatAds.json
 
 Package: com.susu.snapper3.picta
 Name: Picta
@@ -147,7 +147,7 @@ Size:    10580
 MD5sum: ebb5e2b956b0562a1d3e7356dd681604
 SHA1: a783f23cdf0fd6d4d2832202378636b4bf69d25c
 SHA256: 8e5fabc19ccdfa43ba9a3fcdbf6bb0bf10c0628381493043b618f0fa6bc018b7
-Depiction: https://lihyee.github.io/ios-repo/json/Picta.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/Picta.json
 
 Package: com.susu.wcfrostedglass
 Name: SuWCFrostedGlass
@@ -165,7 +165,7 @@ Size:     4884
 MD5sum: 8e28f3d8e8942eda3889df3b5bdf702b
 SHA1: 5612afa9d07e369b0fde920ed3d3717dfe8256b8
 SHA256: dc8bba0e37d5bc4458c7ae668516283c2d7456cdc72ecdff19d05a7007d6e9f5
-Depiction: https://lihyee.github.io/ios-repo/json/SuWCFrostedGlass.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/SuWCFrostedGlass.json
 
 Package: com.vita.yuki
 Name: Yuki
@@ -185,7 +185,7 @@ Size:    53378
 MD5sum: e5a666e445a3e1e196329cf6f85079fa
 SHA1: 78dac767faf0b924941ecf91a3a2c95421400f9e
 SHA256: 0c6420d73e4bcf2065e3210ee1e778c5e48b738bd92f325be2ba9c60d32d7f9f
-Depiction: https://lihyee.github.io/ios-repo/json/Yuki.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/Yuki.json
 
 Package: com.xx.dyhook
 Name: 抖音图层
@@ -203,7 +203,7 @@ Size:  3496180
 MD5sum: a17169ae8c73f8e9d9d9cc929d220071
 SHA1: 88893ab6464e400b3cdbf999fe71d894dd040ff8
 SHA256: 929448dec5617b55e3bf2afce3dba5358994b8aa35fae8075d05505fdc2a846d
-Depiction: https://lihyee.github.io/ios-repo/json/抖音图层.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/抖音图层.json
 
 Package: com.yourepo.0xash.devicemonitor
 Architecture: iphoneos-arm64
@@ -220,7 +220,7 @@ Size:    43788
 MD5sum: a37e4fb1f8c72d80d62ebb42bf3db34d
 SHA1: 6929cbe823fd6b01aba08e848619828ccc278f77
 SHA256: 2b88326007ed36535626aeac0156c1ebcf7821e11908604c4ecc4f35f02958a1
-Depiction: https://lihyee.github.io/ios-repo/json/DeviceMonitor去温控.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/DeviceMonitor去温控.json
 
 Package: com.yourepo.0xash.fuckthermal
 Architecture: iphoneos-arm64
@@ -237,7 +237,7 @@ Size:   216432
 MD5sum: b024cd98eab8ab3e2c21dee93fd492da
 SHA1: 403ecf7aef691957f379738d5fdc8a5e653c85d2
 SHA256: 36f68cd4678250da400ef45af8e206bf7b657f139e58edcf3efe603e71c862cd
-Depiction: https://lihyee.github.io/ios-repo/json/fuckthermal去温控.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/fuckthermal去温控.json
 
 Package: com.lhyee.wcfix
 Author: lhyee
@@ -256,7 +256,7 @@ Size:     4544
 MD5sum: 6a8b0f494e4389114a871227278d30cd
 SHA1: 4ffe7b89435f96cd06a36ffbab50e78c9780a25f
 SHA256: 0eb66465c6cb216d6372b7d411b81f986fea57621bd12cbe2654051ad1e482ae
-Depiction: https://lihyee.github.io/ios-repo/json/fix图标错位.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/fix图标错位.json
 
 Package: net.disableshuttersound
 Version: 1.1-2
@@ -273,7 +273,7 @@ Size:     3280
 MD5sum: 098b8d9f8690791807791f4143bc3186
 SHA1: 21fee11dd3d9d13d40a30b5c3821f7ab97b3341c
 SHA256: 17566bffe711929d95122446c4304426b5c3f560984b7bd1a21e7e645bc3454b
-Depiction: https://lihyee.github.io/ios-repo/json/禁用拍照声音.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/禁用拍照声音.json
 
 Package: com.lhyee.hdrhook
 Author: lhyee
@@ -292,7 +292,7 @@ Size:     4064
 MD5sum: b73017754af5adf341005991b34cf5e4
 SHA1: 824fe97a34f8a6f3466deb4dbd475aedb2d117b1
 SHA256: 9def76a625e809a838c566b3d431d508ea3d75cb8ea8c0483456ced7e7830163
-Depiction: https://lihyee.github.io/ios-repo/json/抖音关闭hdr.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/抖音关闭hdr.json
 
 Package: com.lhyee.yincangwc
 Author: lhyee
@@ -311,5 +311,5 @@ Size:     3872
 MD5sum: 871c9dcbf760b33e546b3b9a22779efb
 SHA1: e07e59232c43fadc6212678ce85071b71c2c0160
 SHA256: c06d6a790fb26e2584dc9340f4b29bdd0c3f03342f7afef47105933f48644389
-Depiction: https://lihyee.github.io/ios-repo/json/隐藏微信某些图标.json
+Sileodepiction: https://lihyee.github.io/ios-repo/json/隐藏微信某些图标.json
 
