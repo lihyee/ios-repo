@@ -1,6 +1,5 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://lihyee.github.io/ios-repo/icon/hengfu.png",
     "tintColor": "#87A2FF",
     "minVersion": "0.3",
     "tabs": [
@@ -10,12 +9,21 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### WCqwq\nArchitecture: iphoneos-arm64\n\n源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### WCqwq\nArchitecture: iphoneos-arm64\n\n源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionHeaderView",
                     "title": "详细信息",
-                    "useBoldText": true
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -45,7 +53,8 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0\n- 暂无更新日志"
+                    "markdown": "### 版本 1.0\n- 暂无更新日志",
+                    "useSpacing": true
                 }
             ]
         }
