@@ -1,0 +1,53 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://lihyee.github.io/ios-repo/icon/hengfu.png",
+    "tintColor": "#87A2FF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### DeviceMonitor去温控\nAuthor: aodmin <krylov0@outlook.com>\n\n源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详细信息",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "aodmin <krylov0@outlook.com>",
+                    "title": "插件作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "0.0.9",
+                    "title": "插件版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "42.76KB",
+                    "title": "文件大小"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2025年10月08日",
+                    "title": "最后更新"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 版本 0.0.9\n- 暂无更新日志"
+                }
+            ]
+        }
+    ]
+}
