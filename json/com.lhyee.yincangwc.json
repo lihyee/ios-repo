@@ -20,7 +20,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Architecture: iphoneos-arm64",
+                    "markdown": "隐藏大家觉得碍眼的图标，隐藏后可以点击",
                     "useSpacing": true
                 },
                 {

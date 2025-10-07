@@ -20,7 +20,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Maintainer: SuSu",
+                    "markdown": "Picta适配 Snapper3 的插件",
                     "useSpacing": true
                 },
                 {

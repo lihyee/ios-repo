@@ -20,7 +20,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Architecture: iphoneos-arm64",
+                    "markdown": "虎牙去广告精简底栏，双击底栏我的打开设置",
                     "useSpacing": true
                 },
                 {

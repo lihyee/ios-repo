@@ -20,7 +20,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Architecture: iphoneos-arm64",
+                    "markdown": "修复打开微信助手工具栏底栏图标错位的问题",
                     "useSpacing": true
                 },
                 {

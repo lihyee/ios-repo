@@ -20,7 +20,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Architecture: iphoneos-arm64",
+                    "markdown": "soul已读对方消息，对方显示未读",
                     "useSpacing": true
                 },
                 {

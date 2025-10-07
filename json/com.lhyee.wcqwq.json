@@ -20,7 +20,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Architecture: iphoneos-arm64",
+                    "markdown": "自用插件，微信圆角",
                     "useSpacing": true
                 },
                 {

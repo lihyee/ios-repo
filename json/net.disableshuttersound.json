@@ -20,7 +20,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Icon: https://lihyee.github.io/ios-repo/tubiao.png",
+                    "markdown": "Disable shutter sound禁用拍照声音",
                     "useSpacing": true
                 },
                 {
