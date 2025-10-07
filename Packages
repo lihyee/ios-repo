@@ -12,10 +12,16 @@ Installed-Size: 2520
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Section: 抖音插件
 Filename: debs/com.huami.dyyy_2.2-8_iphoneos-arm64.deb
-Size: 501844
+Size:   501844
 MD5sum: 55d092f2a6ae1a744f71d4f6330b82d0
 SHA1: dcf77b452ccf4b2889937c26afec7791553aaf70
 SHA256: 43134695d876d6b3ce8797faff185fdb6321320fc0e7e5abab2db52ec6828cf0
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/DYYY.json
+    📦 包名: com.huami.dyyy
+    🏷️  显示名: DYYY
+    📄 安全文件名: DYYY.json
+    📏 文件大小: 490.08KB
+DYYY.json
 
 Package: com.lhyee.feizhi
 Author: lhyee
@@ -30,12 +36,64 @@ Installed-Size: 88
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: 其他插件
 Filename: debs/com.lhyee.feizhi_1.0_iphoneos-arm64.deb
-Size: 5548
+Size:     5548
 MD5sum: 1e56a865c0989b7232af274e918377ef
 SHA1: 5185af00117552ffc2fb496c98d45067a24e90d3
 SHA256: 538a5c7c257f69860a055d8f2fc039f50a61471d157a5f452031e71f67017cda
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/取消飞智超频弹窗.json
+    📦 包名: com.lhyee.feizhi
+    🏷️  显示名: 取消飞智超频弹窗
+    📄 安全文件名: 取消飞智超频弹窗.json
+    📏 文件大小: 5.42KB
+取消飞智超频弹窗.json
 
+Package: com.lhyee.renshu
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: firmware (>= 15.0)
+Name: 直播真实人数
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/com.lhyee.renshu_1.0_iphoneos-arm64.deb
+Size:     4472
+MD5sum: 7bb5554897be30f6bfdf3a59a1de16d7
+SHA1: 6b272206635e1a4227fdff88285bbf378a7366f7
+SHA256: bbb1c998dbbe1b5ac0b59ba8f94c14a2b4b8b2c311ac7703566147aa68d7a382
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/直播真实人数.json
+    📦 包名: com.lhyee.renshu
+    🏷️  显示名: 直播真实人数
+    📄 安全文件名: 直播真实人数.json
+    📏 文件大小: 4.37KB
+直播真实人数.json
 
+Package: com.lhyee.simplehuya
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: simple虎牙
+Description: 虎牙去广告精简底栏，双击底栏我的打开设置
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 204
+Icon: https://lihyee.github.io/ios-repo/icons/huya.png
+Section: Tweaks
+Filename: debs/com.lhyee.simplehuya_1.0_iphoneos-arm64.deb
+Size:    21056
+MD5sum: 954712fe7c201dcb3fe0ff4298b36b6e
+SHA1: e10af75a938bf62bb6d2ca46b0036793020070e9
+SHA256: a63a19ad84d61bc9c4788cfa66ad738f18b7aedd76b980b64d3ed90f5205ddb8
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/simple虎牙.json
+    📦 包名: com.lhyee.simplehuya
+    🏷️  显示名: simple虎牙
+    📄 安全文件名: simple虎牙.json
+    📏 文件大小: 20.56KB
+simple虎牙.json
 
 Package: com.lhyee.soul
 Author: lhyee
@@ -50,11 +108,16 @@ Installed-Size: 88
 Icon: https://lihyee.github.io/ios-repo/tubiao.png
 Section: 其他插件
 Filename: debs/com.lhyee.soul_1.0_iphoneos-arm64.deb
-Size: 2300
+Size:     2300
 MD5sum: 285c3a862ef8e825824c0ca958329895
 SHA1: cedb0f77bf04518993ba156c7706a14b81f24a0c
 SHA256: 984964d713faaec235232090539d17359a326602f0f1992d6ece20889b30d115
-
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/soul隐藏已读.json
+    📦 包名: com.lhyee.soul
+    🏷️  显示名: soul隐藏已读
+    📄 安全文件名: soul隐藏已读.json
+    📏 文件大小: 2.25KB
+soul隐藏已读.json
 
 Package: com.lhyee.wcqwq
 Author: lhyee
@@ -69,12 +132,16 @@ Installed-Size: 92
 Icon: https://www.susuboy.cn/images/wechat.png
 Section: 微信插件
 Filename: debs/com.lhyee.wcqwq_1.0_iphoneos-arm64.deb
-Size: 10128
+Size:    10128
 MD5sum: 99d0475477d6abcbd9700636f3abe108
 SHA1: 5c1572a00c22aebecce549254005fbc30f016729
 SHA256: 782ef9de039351cb9a42caf51e4dd4a3a98eed7b0cda49ae6e335fdd3f8e133c
-
-
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/WCqwq.json
+    📦 包名: com.lhyee.wcqwq
+    🏷️  显示名: WCqwq
+    📄 安全文件名: WCqwq.json
+    📏 文件大小: 9.89KB
+WCqwq.json
 
 Package: com.susu.fuckwechatads
 Name: FuckWeChatAds
@@ -88,11 +155,39 @@ Installed-Size: 104
 Icon: https://www.susuboy.cn/images/wechat.png
 Section: Tweaks
 Filename: debs/com.susu.fuckwechatads_1.0.2_iphoneos-arm64.deb
-Size: 16904
+Size:    16904
 MD5sum: b5b57396d69b2d624aa4104b31e3bdf4
 SHA1: 2da75738df2547251bd4126fcdc9c07b1e4be87b
 SHA256: ec26f978512f6b1a194c6b29244074080d9d3bba487a77d36e2a94dc11162d29
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/FuckWeChatAds.json
+    📦 包名: com.susu.fuckwechatads
+    🏷️  显示名: FuckWeChatAds
+    📄 安全文件名: FuckWeChatAds.json
+    📏 文件大小: 16.51KB
+FuckWeChatAds.json
 
+Package: com.susu.snapper3.picta
+Name: Picta
+Description: Picta适配 Snapper3 的插件
+Maintainer: SuSu
+Author: SuSu
+Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 180
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: Tweaks
+Filename: debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64.deb
+Size:    10580
+MD5sum: ebb5e2b956b0562a1d3e7356dd681604
+SHA1: a783f23cdf0fd6d4d2832202378636b4bf69d25c
+SHA256: 8e5fabc19ccdfa43ba9a3fcdbf6bb0bf10c0628381493043b618f0fa6bc018b7
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/Picta.json
+    📦 包名: com.susu.snapper3.picta
+    🏷️  显示名: Picta
+    📄 安全文件名: Picta.json
+    📏 文件大小: 10.33KB
+Picta.json
 
 Package: com.susu.wcfrostedglass
 Name: SuWCFrostedGlass
@@ -106,70 +201,16 @@ Installed-Size: 168
 Icon: https://www.susuboy.cn/images/wechat.png
 Section: 微信插件
 Filename: debs/com.susu.wcfrostedglass_1.0.5_iphoneos-arm64.deb
-Size: 4884
+Size:     4884
 MD5sum: 8e28f3d8e8942eda3889df3b5bdf702b
 SHA1: 5612afa9d07e369b0fde920ed3d3717dfe8256b8
 SHA256: dc8bba0e37d5bc4458c7ae668516283c2d7456cdc72ecdff19d05a7007d6e9f5
-
-
-
-Package: com.lhyee.wcfix
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: fix图标错位
-Description: 修复打开微信助手工具栏底栏图标错位的问题
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://www.susuboy.cn/images/wechat.png
-Section: 微信插件
-Filename: debs/fix图标错位-arm64.deb
-Size: 4544
-MD5sum: 6a8b0f494e4389114a871227278d30cd
-SHA1: 4ffe7b89435f96cd06a36ffbab50e78c9780a25f
-SHA256: 0eb66465c6cb216d6372b7d411b81f986fea57621bd12cbe2654051ad1e482ae
-
-
-Package: com.lhyee.hdrhook
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: 抖音关闭hdr
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Section: 抖音插件
-Filename: debs/抖音关闭hdr.deb
-Size: 4064
-MD5sum: b73017754af5adf341005991b34cf5e4
-SHA1: 824fe97a34f8a6f3466deb4dbd475aedb2d117b1
-SHA256: 9def76a625e809a838c566b3d431d508ea3d75cb8ea8c0483456ced7e7830163
-
-
-Package: com.lhyee.yincangwc
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: 隐藏微信某些图标
-Description: 隐藏大家觉得碍眼的图标，隐藏后可以点击
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://www.susuboy.cn/images/wechat.png
-Section: 微信插件
-Filename: debs/隐藏微信一些图标.deb
-Size: 3872
-MD5sum: 871c9dcbf760b33e546b3b9a22779efb
-SHA1: e07e59232c43fadc6212678ce85071b71c2c0160
-SHA256: c06d6a790fb26e2584dc9340f4b29bdd0c3f03342f7afef47105933f48644389
-
-
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/SuWCFrostedGlass.json
+    📦 包名: com.susu.wcfrostedglass
+    🏷️  显示名: SuWCFrostedGlass
+    📄 安全文件名: SuWCFrostedGlass.json
+    📏 文件大小: 4.77KB
+SuWCFrostedGlass.json
 
 Package: com.vita.yuki
 Name: Yuki
@@ -185,133 +226,16 @@ Installed-Size: 336
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Section: 抖音插件
 Filename: debs/com.vita.yuki_0.0-8_iphoneos-arm64.deb
-Size: 53378
+Size:    53378
 MD5sum: e5a666e445a3e1e196329cf6f85079fa
 SHA1: 78dac767faf0b924941ecf91a3a2c95421400f9e
 SHA256: 0c6420d73e4bcf2065e3210ee1e778c5e48b738bd92f325be2ba9c60d32d7f9f
-
-Size:    43668
-MD5sum: cd0cb364ee54d97738a53810d77b42dc
-SHA1: 2382f12dd6304b7db8114fd8d3b1a6c89598b91a
-SHA256: d3911ee286f63642c7c5dbe40a8a8e4c3208fa029ecfad7708e0a892b3bcc1d3
-
-Package: com.yourepo.0xash.devicemonitor
-Architecture: iphoneos-arm64
-Name: DeviceMonitor去温控
-Version: 0.0.9
-Description: 去温控两件套其一
-Author: aodmin <krylov0@outlook.com>
-Depends: mobilesubstrate
-Maintainer: admin <krylov0@outlook.com>
-Icon: https://lihyee.github.io/ios-repo/tubiao.png
-Section: 系统类插件
-Filename: debs/com.yourepo.0xash.devicemonitor_0.0.9_iphoneos-arm64.deb
-Size: 43788
-MD5sum: a37e4fb1f8c72d80d62ebb42bf3db34d
-SHA1: 6929cbe823fd6b01aba08e848619828ccc278f77
-SHA256: 2b88326007ed36535626aeac0156c1ebcf7821e11908604c4ecc4f35f02958a1
-
-
-
-Package: net.disableshuttersound
-Version: 1.1-2
-Depends: mobilesubstrate, firmware (>= 15.0)
-Architecture: iphoneos-arm64
-Installed-Size: 152
-Name: 禁用拍照声音
-Author: Netskao
-Description: Disable shutter sound禁用拍照声音
-Icon: https://lihyee.github.io/ios-repo/tubiao.png
-Section: 系统类插件
-Filename: debs/net.disableshuttersound_1.1-2_iphoneos-arm64.deb
-Size: 3280
-MD5sum: 098b8d9f8690791807791f4143bc3186
-SHA1: 21fee11dd3d9d13d40a30b5c3821f7ab97b3341c
-SHA256: 17566bffe711929d95122446c4304426b5c3f560984b7bd1a21e7e645bc3454b
-
-
-
-
-
-
-
-
-Package: com.yourepo.0xash.fuckthermal
-Architecture: iphoneos-arm64
-Name: fuckthermal去温控
-Version: 1.2-38
-Description: 去温控两件套其一，重启设备需设置重新关闭再打开，修改自用
-Author: Shadow- <krylov0@outlook.com>
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader (>= 2.2.3)
-Maintainer: Shadow- <krylov0@outlook.com>
-Icon: https://lihyee.github.io/ios-repo/icons/com.yourepo.0xash.fuckthermal.png
-Section: 系统类插件
-Filename: debs/com.yourepo.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
-Size: 216432
-MD5sum: b024cd98eab8ab3e2c21dee93fd492da
-SHA1: 403ecf7aef691957f379738d5fdc8a5e653c85d2
-SHA256: 36f68cd4678250da400ef45af8e206bf7b657f139e58edcf3efe603e71c862cd
-
-
-
-Package: com.susu.snapper3.picta
-Name: Picta
-Description: Picta适配 Snapper3 的插件
-Maintainer: SuSu
-Author: SuSu
-Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 180
-Icon: https://lihyee.github.io/ios-repo/tubiao.png
-Section: Tweaks
-Filename: debs/com.susu.snapper3.picta_1.0.0_iphoneos-arm64.deb
-Size: 10580
-MD5sum: ebb5e2b956b0562a1d3e7356dd681604
-SHA1: a783f23cdf0fd6d4d2832202378636b4bf69d25c
-SHA256: 8e5fabc19ccdfa43ba9a3fcdbf6bb0bf10c0628381493043b618f0fa6bc018b7
-
-
-
-
-Package: com.lhyee.simplehuya
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: simple虎牙
-Description: 虎牙去广告精简底栏，双击底栏我的打开设置
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 204
-Icon: https://lihyee.github.io/ios-repo/icons/huya.png
-Section: 去广告
-Filename: debs/com.lhyee.simplehuya_1.0_iphoneos-arm64.deb
-Size: 21056
-MD5sum: 954712fe7c201dcb3fe0ff4298b36b6e
-SHA1: e10af75a938bf62bb6d2ca46b0036793020070e9
-SHA256: a63a19ad84d61bc9c4788cfa66ad738f18b7aedd76b980b64d3ed90f5205ddb8
-
-
-
-
-Package: com.lhyee.renshu
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: firmware (>= 15.0)
-Name: 直播真实人数
-Description: 仅供学习交流，请在 24 小时内自觉删除。
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 88
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Section: 抖音插件
-Filename: debs/com.lhyee.renshu_1.0_iphoneos-arm64.deb
-Size: 4472
-MD5sum: 7bb5554897be30f6bfdf3a59a1de16d7
-SHA1: 6b272206635e1a4227fdff88285bbf378a7366f7
-SHA256: bbb1c998dbbe1b5ac0b59ba8f94c14a2b4b8b2c311ac7703566147aa68d7a382
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/Yuki.json
+    📦 包名: com.vita.yuki
+    🏷️  显示名: Yuki
+    📄 安全文件名: Yuki.json
+    📏 文件大小: 52.13KB
+Yuki.json
 
 Package: com.xx.dyhook
 Name: 抖音图层
@@ -329,4 +253,148 @@ Size:  3496180
 MD5sum: a17169ae8c73f8e9d9d9cc929d220071
 SHA1: 88893ab6464e400b3cdbf999fe71d894dd040ff8
 SHA256: 929448dec5617b55e3bf2afce3dba5358994b8aa35fae8075d05505fdc2a846d
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/抖音图层.json
+    📦 包名: com.xx.dyhook
+    🏷️  显示名: 抖音图层
+    📄 安全文件名: 抖音图层.json
+    📏 文件大小: 3.33MB
+抖音图层.json
+
+Package: com.yourepo.0xash.devicemonitor
+Architecture: iphoneos-arm64
+Name: DeviceMonitor去温控
+Version: 0.0.9
+Description: 去温控两件套其一
+Author: aodmin <krylov0@outlook.com>
+Depends: mobilesubstrate
+Maintainer: admin <krylov0@outlook.com>
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: 系统类插件
+Filename: debs/com.yourepo.0xash.devicemonitor_0.0.9_iphoneos-arm64.deb
+Size:    43788
+MD5sum: a37e4fb1f8c72d80d62ebb42bf3db34d
+SHA1: 6929cbe823fd6b01aba08e848619828ccc278f77
+SHA256: 2b88326007ed36535626aeac0156c1ebcf7821e11908604c4ecc4f35f02958a1
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/DeviceMonitor去温控.json
+    📦 包名: com.yourepo.0xash.devicemonitor
+    🏷️  显示名: DeviceMonitor去温控
+    📄 安全文件名: DeviceMonitor去温控.json
+    📏 文件大小: 42.76KB
+DeviceMonitor去温控.json
+
+Package: com.yourepo.0xash.fuckthermal
+Architecture: iphoneos-arm64
+Name: fuckthermal去温控
+Version: 1.2-38
+Description: 去温控两件套其一，重启设备需设置重新关闭再打开，修改自用
+Author: Shadow- <krylov0@outlook.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader (>= 2.2.3)
+Maintainer: Shadow- <krylov0@outlook.com>
+Icon: https://lihyee.github.io/ios-repo/icons/com.yourepo.0xash.fuckthermal.png
+Section: 系统类插件
+Filename: debs/com.yourepo.0xash.fuckthermal_1.2-38_iphoneos-arm64.deb
+Size:   216432
+MD5sum: b024cd98eab8ab3e2c21dee93fd492da
+SHA1: 403ecf7aef691957f379738d5fdc8a5e653c85d2
+SHA256: 36f68cd4678250da400ef45af8e206bf7b657f139e58edcf3efe603e71c862cd
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/fuckthermal去温控.json
+    📦 包名: com.yourepo.0xash.fuckthermal
+    🏷️  显示名: fuckthermal去温控
+    📄 安全文件名: fuckthermal去温控.json
+    📏 文件大小: 211.36KB
+fuckthermal去温控.json
+
+Package: com.lhyee.wcfix
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: fix图标错位
+Description: 修复打开微信助手工具栏底栏图标错位的问题
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://www.susuboy.cn/images/wechat.png
+Section: 微信插件
+Filename: debs/fix图标错位-arm64.deb
+Size:     4544
+MD5sum: 6a8b0f494e4389114a871227278d30cd
+SHA1: 4ffe7b89435f96cd06a36ffbab50e78c9780a25f
+SHA256: 0eb66465c6cb216d6372b7d411b81f986fea57621bd12cbe2654051ad1e482ae
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/fix图标错位.json
+    📦 包名: com.lhyee.wcfix
+    🏷️  显示名: fix图标错位
+    📄 安全文件名: fix图标错位.json
+    📏 文件大小: 4.44KB
+fix图标错位.json
+
+Package: net.disableshuttersound
+Version: 1.1-2
+Depends: mobilesubstrate, firmware (>= 15.0)
+Architecture: iphoneos-arm64
+Installed-Size: 152
+Name: 禁用拍照声音
+Author: Netskao
+Description: Disable shutter sound禁用拍照声音
+Icon: https://lihyee.github.io/ios-repo/tubiao.png
+Section: 系统类插件
+Filename: debs/net.disableshuttersound_1.1-2_iphoneos-arm64.deb
+Size:     3280
+MD5sum: 098b8d9f8690791807791f4143bc3186
+SHA1: 21fee11dd3d9d13d40a30b5c3821f7ab97b3341c
+SHA256: 17566bffe711929d95122446c4304426b5c3f560984b7bd1a21e7e645bc3454b
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/禁用拍照声音.json
+    📦 包名: net.disableshuttersound
+    🏷️  显示名: 禁用拍照声音
+    📄 安全文件名: 禁用拍照声音.json
+    📏 文件大小: 3.20KB
+禁用拍照声音.json
+
+Package: com.lhyee.hdrhook
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 抖音关闭hdr
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/抖音关闭hdr.deb
+Size:     4064
+MD5sum: b73017754af5adf341005991b34cf5e4
+SHA1: 824fe97a34f8a6f3466deb4dbd475aedb2d117b1
+SHA256: 9def76a625e809a838c566b3d431d508ea3d75cb8ea8c0483456ced7e7830163
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/抖音关闭hdr.json
+    📦 包名: com.lhyee.hdrhook
+    🏷️  显示名: 抖音关闭hdr
+    📄 安全文件名: 抖音关闭hdr.json
+    📏 文件大小: 3.97KB
+抖音关闭hdr.json
+
+Package: com.lhyee.yincangwc
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: 隐藏微信某些图标
+Description: 隐藏大家觉得碍眼的图标，隐藏后可以点击
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 88
+Icon: https://www.susuboy.cn/images/wechat.png
+Section: 微信插件
+Filename: debs/隐藏微信一些图标.deb
+Size:     3872
+MD5sum: 871c9dcbf760b33e546b3b9a22779efb
+SHA1: e07e59232c43fadc6212678ce85071b71c2c0160
+SHA256: c06d6a790fb26e2584dc9340f4b29bdd0c3f03342f7afef47105933f48644389
+Depiction: https://lihyee.github.io/ios-repo/json/  🎨 生成 Sileo Depiction: json/隐藏微信某些图标.json
+    📦 包名: com.lhyee.yincangwc
+    🏷️  显示名: 隐藏微信某些图标
+    📄 安全文件名: 隐藏微信某些图标.json
+    📏 文件大小: 3.78KB
+隐藏微信某些图标.json
 
