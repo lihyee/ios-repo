@@ -20,7 +20,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "自用",
+                    "markdown": "基于iOS墓碑机制的后台保活插件",
                     "useSpacing": true
                 },
                 {
@@ -38,17 +38,17 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "x✨",
+                    "text": "YourName <your.email@example.com>",
                     "title": "插件作者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.3.1-8",
+                    "text": "1.0.0-1+debug",
                     "title": "插件版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "3.32MB",
+                    "text": "37.90KB",
                     "title": "文件大小"
                 },
                 {
@@ -64,7 +64,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 2.3.1-8\n- 暂无更新日志",
+                    "markdown": "### 版本 1.0.0-1+debug\n- 暂无更新日志",
                     "useSpacing": true
                 }
             ]
