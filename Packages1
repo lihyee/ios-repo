@@ -187,24 +187,6 @@ SHA1: 78dac767faf0b924941ecf91a3a2c95421400f9e
 SHA256: 0c6420d73e4bcf2065e3210ee1e778c5e48b738bd92f325be2ba9c60d32d7f9f
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.vita.yuki.json
 
-Package: com.xx.dyhook
-Name: 抖音图层
-Description: 自用
-Maintainer: x✨
-Author: x✨
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 2.3.1-7
-Installed-Size: 11248
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Section: 抖音插件
-Filename: debs/com.xx.dyhook_2.3.1-7_iphoneos-arm64.deb
-Size:  3496180
-MD5sum: a17169ae8c73f8e9d9d9cc929d220071
-SHA1: 88893ab6464e400b3cdbf999fe71d894dd040ff8
-SHA256: 929448dec5617b55e3bf2afce3dba5358994b8aa35fae8075d05505fdc2a846d
-Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.xx.dyhook.json
-
 Package: com.yourepo.0xash.devicemonitor
 Architecture: iphoneos-arm64
 Name: DeviceMonitor去温控
@@ -312,4 +294,78 @@ MD5sum: 871c9dcbf760b33e546b3b9a22779efb
 SHA1: e07e59232c43fadc6212678ce85071b71c2c0160
 SHA256: c06d6a790fb26e2584dc9340f4b29bdd0c3f03342f7afef47105933f48644389
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.yincangwc.json
+
+Package: com.xx.dyhook
+Name: 抖音图层
+Description: 自用
+Maintainer: x✨
+Author: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3.1-8
+Installed-Size: 11296
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/com.xx.dyhook_2.3.1-8_iphoneos-arm64.deb
+Size:  3479844
+MD5sum: edb13aaababb715784ebcc7ebc07864d
+SHA1: ec5b45345ac4c5a784b8a67521c225d8bb72a60f
+SHA256: 6095a6582833f7f21ab572e84fa57a3414f95b7e70011efcb47f8dc50a506e82
+Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.xx.dyhook.json
+
+Package: com.yourname.backgroundkeepalive
+Name: 提升应用后台留存
+Description: 基于iOS墓碑机制的后台保活插件
+ 这是一个专为Dopamine越狱环境设计的后台保活插件，通过Hook iOS系统的墓碑机制来提高应用的后台留存率。
+ .
+ 主要功能：
+ • 拦截应用挂起和终止操作
+ • 智能内存管理和优化
+ • 自动监控和重启机制
+ • 适配RootHide隐根越狱环境
+ • 长时间稳定运行，自动故障恢复
+ .
+ 支持iOS 14.0及以上版本，兼容arm64和arm64e架构。
+Maintainer: YourName <your.email@example.com>
+Author: YourName <your.email@example.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Suggests: libhooker | substitute
+Conflicts: com.rpetrich.backgrounder, com.jevinskie.backgroundmanager
+Replaces: 
+Priority: optional
+Tag: purpose::extension, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17
+Homepage: https://github.com/yourname/backgroundkeepalive
+Depiction: https://yourrepo.com/depictions/backgroundkeepalive
+SileoDepiction: https://yourrepo.com/sileo/backgroundkeepalive
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Installed-Size: 504
+Icon: https://raw.githubusercontent.com/lihyee/ios-repo/main/tubiao.png
+Section: Tweaks
+Filename: debs/com.yourname.backgroundkeepalive_1.0.0-1+debug_iphoneos-arm64.deb
+Size:    38808
+MD5sum: 89bd2692fb087cedf7bddc793b386eda
+SHA1: 2da9af17588df7a66ed643923b7f16e79e12c52a
+SHA256: 0c71c0da483da33adb8f798ba4078ffca488344df67dce6450ecc237aca99a57
+Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.yourname.backgroundkeepalive.json
+
+Package: cn.zqbb.holdcpu
+Name: Hello CPU
+Description:Hello CPU2.2.0-13改版本号自用版
+Maintainer: zqbb
+Author: zqbb
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+Architecture: iphoneos-arm64
+Version: 3.2.0-13
+Installed-Size: 2432
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+Section: Tweaks
+Filename: debs/cn.zqbb.holdcpu_3.2.0-13_iphoneos-arm64.deb
+Size: 716904
+MD5sum: 7cd55d1c91c5f7c49d1ab614e8d2c692
+SHA1: 04e2abcc26f25865b98df1f3ae426bd781e931f2
+SHA256: 006a54c448571571a10a7a01fb347b177a937dc9ca37b04c57fbbc63895812ed
+Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/cn.zqbb.holdcpu.json
 
