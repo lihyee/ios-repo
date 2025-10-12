@@ -76,25 +76,6 @@ SHA1: 07f6a401e9e88bb0121cc4f60a70ffd4eeb44ffb
 SHA256: ad566fd8e8fe734c9d612151f352145fca5180d5e283163c594288292efdc5e3
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.renshu.json
 
-Package: com.lhyee.simplehuya
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: simple虎牙
-Description: 虎牙去广告精简底栏，双击底栏我的打开设置
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 204
-Icon: https://lihyee.github.io/ios-repo/icons/huya.png
-Section: Tweaks
-Filename: debs/com.lhyee.simplehuya_1.0_iphoneos-arm64.deb
-Size:    22032
-MD5sum: ab8a94ed9047ffdc14b1be15c8b8ae58
-SHA1: cc6ba5541d428e42de2ce030829fe650064f500b
-SHA256: 2b647d9ba291b8baa50b8b3ba2320ff9b8b0120e250380d5e922b046edd882e2
-Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.simplehuya.json
-
 Package: com.lhyee.soul
 Author: lhyee
 Priority: optional
@@ -386,4 +367,23 @@ MD5sum: 871c9dcbf760b33e546b3b9a22779efb
 SHA1: e07e59232c43fadc6212678ce85071b71c2c0160
 SHA256: c06d6a790fb26e2584dc9340f4b29bdd0c3f03342f7afef47105933f48644389
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.yincangwc.json
+
+Package: com.lhyee.simplehuya
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: simple虎牙
+Description: 虎牙去广告精简底栏，双击底栏我的打开设置
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 204
+Icon: https://lihyee.github.io/ios-repo/icons/huya.png
+Section: Tweaks
+Filename: debs/com.lhyee.simplehuya_1.0_iphoneos-arm64.deb
+Size:    22032
+MD5sum: ab8a94ed9047ffdc14b1be15c8b8ae58
+SHA1: cc6ba5541d428e42de2ce030829fe650064f500b
+SHA256: 2b647d9ba291b8baa50b8b3ba2320ff9b8b0120e250380d5e922b046edd882e2
+Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.simplehuya.json
 

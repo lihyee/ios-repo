@@ -43,12 +43,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0",
+                    "text": "1.0.1",
                     "title": "插件版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "21.52KB",
+                    "text": "21.62KB",
                     "title": "文件大小"
                 },
                 {
@@ -64,7 +64,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0\n- 暂无更新日志",
+                    "markdown": "### 版本 1.0.1\n- 暂无更新日志",
                     "useSpacing": true
                 }
             ]
