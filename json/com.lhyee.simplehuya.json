@@ -48,12 +48,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "20.56KB",
+                    "text": "21.52KB",
                     "title": "文件大小"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025年10月08日",
+                    "text": "2025年10月12日",
                     "title": "最后更新"
                 }
             ]

@@ -50,11 +50,12 @@ Installed-Size: 88
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Section: 抖音插件
 Filename: debs/com.lhyee.renshu_1.0_iphoneos-arm64.deb
-Size:     4472
-MD5sum: 7bb5554897be30f6bfdf3a59a1de16d7
-SHA1: 6b272206635e1a4227fdff88285bbf378a7366f7
-SHA256: bbb1c998dbbe1b5ac0b59ba8f94c14a2b4b8b2c311ac7703566147aa68d7a382
+Size: 4604
+MD5sum: 9e228611708ac84b2f3d08f2693c096e
+SHA1: 07f6a401e9e88bb0121cc4f60a70ffd4eeb44ffb
+SHA256: ad566fd8e8fe734c9d612151f352145fca5180d5e283163c594288292efdc5e3
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.renshu.json
+
 
 Package: com.lhyee.simplehuya
 Author: lhyee
@@ -307,11 +308,13 @@ Installed-Size: 11296
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Section: 抖音插件
 Filename: debs/com.xx.dyhook_2.3.1-8_iphoneos-arm64.deb
-Size:  3479844
-MD5sum: edb13aaababb715784ebcc7ebc07864d
-SHA1: ec5b45345ac4c5a784b8a67521c225d8bb72a60f
-SHA256: 6095a6582833f7f21ab572e84fa57a3414f95b7e70011efcb47f8dc50a506e82
+Size: 3480532
+MD5sum: 1bb12224c03994a8f6bef8024b76c2f3
+SHA1: 9bfd249d11ed718e457a40ceaf8cf7cbe90e09a9
+SHA256: 14df59fdbfc029a819536ddcdf78fa506d51deafc4350980ac77eb7e3434a77b
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.xx.dyhook.json
+
+
 
 Package: com.yourname.backgroundkeepalive
 Name: 提升应用后台留存
@@ -343,11 +346,12 @@ Installed-Size: 504
 Icon: https://raw.githubusercontent.com/lihyee/ios-repo/main/tubiao.png
 Section: Tweaks
 Filename: debs/com.yourname.backgroundkeepalive_1.0.0-1+debug_iphoneos-arm64.deb
-Size:    38808
-MD5sum: 89bd2692fb087cedf7bddc793b386eda
-SHA1: 2da9af17588df7a66ed643923b7f16e79e12c52a
-SHA256: 0c71c0da483da33adb8f798ba4078ffca488344df67dce6450ecc237aca99a57
+Size: 38764
+MD5sum: 8f6c5158e9a0ce20930d31b7b1991fad
+SHA1: c2bd83be469dd983a9328f06ce2c73daf769c4b8
+SHA256: 9a9b21cfcaab0a0e10a344e8bb5e591aeff175d907c80a15418142985221d956
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.yourname.backgroundkeepalive.json
+
 
 Package: cn.zqbb.holdcpu
 Name: Hello CPU
@@ -363,9 +367,10 @@ Installed-Size: 2432
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 Section: Tweaks
 Filename: debs/cn.zqbb.holdcpu_3.2.0-13_iphoneos-arm64.deb
-Size: 716904
-MD5sum: 7cd55d1c91c5f7c49d1ab614e8d2c692
-SHA1: 04e2abcc26f25865b98df1f3ae426bd781e931f2
-SHA256: 006a54c448571571a10a7a01fb347b177a937dc9ca37b04c57fbbc63895812ed
+Size: 717268
+MD5sum: cc97f76d8f8b3e675cfc5bec17488e54
+SHA1: baf43146aa2b022c382f72bd0dbd614cfba12313
+SHA256: 3101593d8cc05a305db3f4838b4ff9178ea88933cd053d3df984ea47357ff926
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/cn.zqbb.holdcpu.json
+
 
