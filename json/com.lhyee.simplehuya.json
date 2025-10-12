@@ -20,7 +20,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "虎牙去广告精简底栏，双击底栏我的打开设置",
+                    "markdown": "虎牙去广告精简底栏，长按底栏我的打开设置",
                     "useSpacing": true
                 },
                 {
@@ -48,12 +48,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "24.22KB",
+                    "text": "24.66KB",
                     "title": "文件大小"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025年10月12日",
+                    "text": "2025年10月13日",
                     "title": "最后更新"
                 }
             ]

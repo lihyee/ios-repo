@@ -374,16 +374,16 @@ Priority: optional
 Maintainer: lhyee
 Depends: mobilesubstrate (>= 0.9.5000)
 Name: simple虎牙
-Description: 虎牙去广告精简底栏，双击底栏我的打开设置
+Description: 虎牙去广告精简底栏，长按底栏我的打开设置
 Architecture: iphoneos-arm64
 Version: 1.0.1
-Installed-Size: 220
+Installed-Size: 236
 Icon: https://lihyee.github.io/ios-repo/icons/huya.png
 Section: Tweaks
 Filename: debs/com.lhyee.simplehuya_1.0.1_iphoneos-arm64.deb
-Size:    24806
-MD5sum: b3506410e06bbcfddd7455f58bbe2c03
-SHA1: 5fb8addef40bef3f75d7f637bd01cbfc77486017
-SHA256: dcd88900164f98817349206d0f940f052b3b94b7334004814f4b1ac9f311a2c8
+Size:    25254
+MD5sum: 17d2f38a485cbc2f18dffd33675a6431
+SHA1: 1c8c96fff1d1f52bdea0c4f871357eae7a5a3762
+SHA256: 4de8e6121939d3ff69e8b4b49533a557e789a878109a83bac5ea6c76c4638e7f
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.simplehuya.json
 
