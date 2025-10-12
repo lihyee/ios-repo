@@ -1,3 +1,23 @@
+Package: cn.zqbb.holdcpu
+Name: Hello CPU
+Description: Hello CPU2.2.0-13改版本号自用版
+Maintainer: zqbb
+Author: zqbb
+Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+Architecture: iphoneos-arm64
+Version: 3.2.0-13
+Installed-Size: 2432
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
+Section: Tweaks
+Filename: debs/cn.zqbb.holdcpu_3.2.0-13_iphoneos-arm64.deb
+Size:   717268
+MD5sum: cc97f76d8f8b3e675cfc5bec17488e54
+SHA1: baf43146aa2b022c382f72bd0dbd614cfba12313
+SHA256: 3101593d8cc05a305db3f4838b4ff9178ea88933cd053d3df984ea47357ff926
+Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/cn.zqbb.holdcpu.json
+
 Package: com.huami.dyyy
 Name: DYYY
 Description: 仅供学习交流，请在 24 小时内自觉删除。
@@ -50,12 +70,30 @@ Installed-Size: 88
 Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Section: 抖音插件
 Filename: debs/com.lhyee.renshu_1.0_iphoneos-arm64.deb
-Size: 4604
+Size:     4604
 MD5sum: 9e228611708ac84b2f3d08f2693c096e
 SHA1: 07f6a401e9e88bb0121cc4f60a70ffd4eeb44ffb
 SHA256: ad566fd8e8fe734c9d612151f352145fca5180d5e283163c594288292efdc5e3
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.renshu.json
 
+Package: com.lhyee.simplehuya
+Author: lhyee
+Priority: optional
+Maintainer: lhyee
+Depends: mobilesubstrate (>= 0.9.5000)
+Name: simple虎牙
+Description: 虎牙去广告精简底栏，双击底栏我的打开设置
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 204
+Icon: https://lihyee.github.io/ios-repo/icons/huya.png
+Section: Tweaks
+Filename: debs/com.lhyee.simplehuya_1.0_iphoneos-arm64.deb
+Size:    22032
+MD5sum: ab8a94ed9047ffdc14b1be15c8b8ae58
+SHA1: cc6ba5541d428e42de2ce030829fe650064f500b
+SHA256: 2b647d9ba291b8baa50b8b3ba2320ff9b8b0120e250380d5e922b046edd882e2
+Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.simplehuya.json
 
 Package: com.lhyee.soul
 Author: lhyee
@@ -169,6 +207,42 @@ SHA1: 78dac767faf0b924941ecf91a3a2c95421400f9e
 SHA256: 0c6420d73e4bcf2065e3210ee1e778c5e48b738bd92f325be2ba9c60d32d7f9f
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.vita.yuki.json
 
+Package: com.xx.dyhook
+Name: 抖音图层
+Description: 自用
+Maintainer: x✨
+Author: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3.1-8
+Installed-Size: 11248
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/com.xx.dyhook_2.3.1-7_iphoneos-arm64.deb
+Size:  3497028
+MD5sum: 290e9d67c1af445e1c2b44113d0dab04
+SHA1: 07e395c902f71c10ee4ddd3a4adc075cce3a7407
+SHA256: a1b96855c4b3ca0bef55697523e5536a07be348874d1ba8ca6903aa33cfe23bc
+Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.xx.dyhook.json
+
+Package: com.xx.dyhook
+Name: 抖音图层
+Description: 自用
+Maintainer: x✨
+Author: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64
+Version: 2.3.1-8
+Installed-Size: 11296
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Section: 抖音插件
+Filename: debs/com.xx.dyhook_2.3.1-8_iphoneos-arm64.deb
+Size:  3480532
+MD5sum: 1bb12224c03994a8f6bef8024b76c2f3
+SHA1: 9bfd249d11ed718e457a40ceaf8cf7cbe90e09a9
+SHA256: 14df59fdbfc029a819536ddcdf78fa506d51deafc4350980ac77eb7e3434a77b
+Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.xx.dyhook.json
+
 Package: com.yourepo.0xash.devicemonitor
 Architecture: iphoneos-arm64
 Name: DeviceMonitor去温控
@@ -202,6 +276,42 @@ MD5sum: b024cd98eab8ab3e2c21dee93fd492da
 SHA1: 403ecf7aef691957f379738d5fdc8a5e653c85d2
 SHA256: 36f68cd4678250da400ef45af8e206bf7b657f139e58edcf3efe603e71c862cd
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.yourepo.0xash.fuckthermal.json
+
+Package: com.yourname.backgroundkeepalive
+Name: 提升应用后台留存
+Description: 基于iOS墓碑机制的后台保活插件
+ 这是一个专为Dopamine越狱环境设计的后台保活插件，通过Hook iOS系统的墓碑机制来提高应用的后台留存率。
+ .
+ 主要功能：
+ • 拦截应用挂起和终止操作
+ • 智能内存管理和优化
+ • 自动监控和重启机制
+ • 适配RootHide隐根越狱环境
+ • 长时间稳定运行，自动故障恢复
+ .
+ 支持iOS 14.0及以上版本，兼容arm64和arm64e架构。
+Maintainer: YourName <your.email@example.com>
+Author: YourName <your.email@example.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Suggests: libhooker | substitute
+Conflicts: com.rpetrich.backgrounder, com.jevinskie.backgroundmanager
+Replaces: 
+Priority: optional
+Tag: purpose::extension, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17
+Homepage: https://github.com/yourname/backgroundkeepalive
+Depiction: https://yourrepo.com/depictions/backgroundkeepalive
+SileoDepiction: https://yourrepo.com/sileo/backgroundkeepalive
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Installed-Size: 504
+Icon: https://raw.githubusercontent.com/lihyee/ios-repo/main/tubiao.png
+Section: Tweaks
+Filename: debs/com.yourname.backgroundkeepalive_1.0.0-1+debug_iphoneos-arm64.deb
+Size:    38764
+MD5sum: 8f6c5158e9a0ce20930d31b7b1991fad
+SHA1: c2bd83be469dd983a9328f06ce2c73daf769c4b8
+SHA256: 9a9b21cfcaab0a0e10a344e8bb5e591aeff175d907c80a15418142985221d956
+Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.yourname.backgroundkeepalive.json
 
 Package: com.lhyee.wcfix
 Author: lhyee
@@ -276,101 +386,4 @@ MD5sum: 871c9dcbf760b33e546b3b9a22779efb
 SHA1: e07e59232c43fadc6212678ce85071b71c2c0160
 SHA256: c06d6a790fb26e2584dc9340f4b29bdd0c3f03342f7afef47105933f48644389
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.yincangwc.json
-
-Package: com.xx.dyhook
-Name: 抖音图层
-Description: 自用
-Maintainer: x✨
-Author: x✨
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 2.3.1-8
-Installed-Size: 11296
-Icon: https://Mieing.Github.io/repo/file/TikTok.png
-Section: 抖音插件
-Filename: debs/com.xx.dyhook_2.3.1-8_iphoneos-arm64.deb
-Size: 3480532
-MD5sum: 1bb12224c03994a8f6bef8024b76c2f3
-SHA1: 9bfd249d11ed718e457a40ceaf8cf7cbe90e09a9
-SHA256: 14df59fdbfc029a819536ddcdf78fa506d51deafc4350980ac77eb7e3434a77b
-Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.xx.dyhook.json
-
-
-
-Package: com.yourname.backgroundkeepalive
-Name: 提升应用后台留存
-Description: 基于iOS墓碑机制的后台保活插件
- 这是一个专为Dopamine越狱环境设计的后台保活插件，通过Hook iOS系统的墓碑机制来提高应用的后台留存率。
- .
- 主要功能：
- • 拦截应用挂起和终止操作
- • 智能内存管理和优化
- • 自动监控和重启机制
- • 适配RootHide隐根越狱环境
- • 长时间稳定运行，自动故障恢复
- .
- 支持iOS 14.0及以上版本，兼容arm64和arm64e架构。
-Maintainer: YourName <your.email@example.com>
-Author: YourName <your.email@example.com>
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-Suggests: libhooker | substitute
-Conflicts: com.rpetrich.backgrounder, com.jevinskie.backgroundmanager
-Replaces: 
-Priority: optional
-Tag: purpose::extension, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17
-Homepage: https://github.com/yourname/backgroundkeepalive
-Depiction: https://yourrepo.com/depictions/backgroundkeepalive
-SileoDepiction: https://yourrepo.com/sileo/backgroundkeepalive
-Architecture: iphoneos-arm64
-Version: 1.0.0-1+debug
-Installed-Size: 504
-Icon: https://raw.githubusercontent.com/lihyee/ios-repo/main/tubiao.png
-Section: Tweaks
-Filename: debs/com.yourname.backgroundkeepalive_1.0.0-1+debug_iphoneos-arm64.deb
-Size: 38764
-MD5sum: 8f6c5158e9a0ce20930d31b7b1991fad
-SHA1: c2bd83be469dd983a9328f06ce2c73daf769c4b8
-SHA256: 9a9b21cfcaab0a0e10a344e8bb5e591aeff175d907c80a15418142985221d956
-Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.yourname.backgroundkeepalive.json
-
-
-Package: cn.zqbb.holdcpu
-Name: Hello CPU
-Description:Hello CPU2.2.0-13改版本号自用版
-Maintainer: zqbb
-Author: zqbb
-Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
-Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
-Architecture: iphoneos-arm64
-Version: 3.2.0-13
-Installed-Size: 2432
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
-Section: Tweaks
-Filename: debs/cn.zqbb.holdcpu_3.2.0-13_iphoneos-arm64.deb
-Size: 717268
-MD5sum: cc97f76d8f8b3e675cfc5bec17488e54
-SHA1: baf43146aa2b022c382f72bd0dbd614cfba12313
-SHA256: 3101593d8cc05a305db3f4838b4ff9178ea88933cd053d3df984ea47357ff926
-Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/cn.zqbb.holdcpu.json
-
-
-Package: com.lhyee.simplehuya
-Author: lhyee
-Priority: optional
-Maintainer: lhyee
-Depends: mobilesubstrate (>= 0.9.5000)
-Name: simple虎牙
-Description: 虎牙去广告精简底栏，双击底栏我的打开设置
-Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 204
-Icon: https://lihyee.github.io/ios-repo/icons/huya.png
-Section: Tweaks
-Filename: debs/com.lhyee.simplehuya_1.0_iphoneos-arm64.deb
-Size:    22032
-MD5sum: ab8a94ed9047ffdc14b1be15c8b8ae58
-SHA1: cc6ba5541d428e42de2ce030829fe650064f500b
-SHA256: 2b647d9ba291b8baa50b8b3ba2320ff9b8b0120e250380d5e922b046edd882e2
-Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.simplehuya.json
 

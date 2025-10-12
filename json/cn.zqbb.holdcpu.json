@@ -20,7 +20,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "(解除温控) (锁定低电量CPU频率)",
+                    "markdown": "Hello CPU2.2.0-13改版本号自用版",
                     "useSpacing": true
                 },
                 {
@@ -48,12 +48,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "700.10KB",
+                    "text": "700.46KB",
                     "title": "文件大小"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2025年10月10日",
+                    "text": "2025年10月12日",
                     "title": "最后更新"
                 }
             ]
