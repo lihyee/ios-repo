@@ -376,14 +376,14 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Name: simple虎牙
 Description: 虎牙去广告精简底栏，双击底栏我的打开设置
 Architecture: iphoneos-arm64
-Version: 1.0
+Version: 1.0.1
 Installed-Size: 204
 Icon: https://lihyee.github.io/ios-repo/icons/huya.png
 Section: Tweaks
-Filename: debs/com.lhyee.simplehuya_1.0_iphoneos-arm64.deb
-Size:    22032
-MD5sum: ab8a94ed9047ffdc14b1be15c8b8ae58
-SHA1: cc6ba5541d428e42de2ce030829fe650064f500b
-SHA256: 2b647d9ba291b8baa50b8b3ba2320ff9b8b0120e250380d5e922b046edd882e2
+Filename: debs/com.lhyee.simplehuya_1.0.1_iphoneos-arm64.deb
+Size:    22138
+MD5sum: 80a47c33186db0a598c4e24fe92d5040
+SHA1: d1aceaec8a7196ae59ee3f098f7048bd0c7ec656
+SHA256: d1ecc33748c8bca7dee4f1f9f968b4e0aa4bed43f80db138e728347f4bc21362
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.simplehuya.json
 
