@@ -387,3 +387,20 @@ SHA1: ad9a2a5a459b7465da71c2ca1c58ac4d44329dff
 SHA256: 3f13062af6b5fe9ae5ffc753bd4ef75c51949e751ae097571b2320430d5681c7
 Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.simplehuya.json
 
+Package: com.lhyee.youhua
+Architecture: iphoneos-arm64
+Name: 系统优化合集
+Version: 1.0
+Description: 优化网络框架，优化电池，优化系统，优化后台策略，自动开启杜比音效，优化复制粘贴的延迟
+Author: lhyee
+Depends: mobilesubstrate
+Maintainer: Dragonmichael69
+Icon: https://raw.githubusercontent.com/lihyee/ios-repo/main/tubiao.png
+Section: 系统类插件
+Filename: debs/com.lhyee.youhua_1.0_iphoneos-arm64.deb
+Size: 13496
+MD5sum: c782f1768a8e8c53846ee54ece483d19
+SHA1: d4717a0676cc96b3dea6c10a1b7bc9454a714995
+SHA256: 783f2884e4c38ffc638716696907d020fe6e0953645a10fc1e565422db8e490d
+Sileodepiction: https://raw.githubusercontent.com/lihyee/ios-repo/main/json/com.lhyee.youhua.json
+
